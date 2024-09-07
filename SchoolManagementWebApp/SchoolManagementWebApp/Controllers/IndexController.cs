@@ -1,7 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using SchoolManagementWebApp.Models;
 using System.Net.Security;
+using System.Security.Claims;
 using System.Text;
 using System.Text.Json.Serialization;
 using static System.Net.WebRequestMethods;
@@ -41,15 +44,73 @@ namespace SchoolManagementWebApp.Controllers
                 {
                     if (authenticatedUser.Urole == "SystemAdmin")
                     {
-                        return RedirectToAction("AdminDashboard", "Admin");
+                        var identity = new ClaimsIdentity(new[] {
+                        new Claim(ClaimTypes.Name,u.UserId)},
+                        CookieAuthenticationDefaults.AuthenticationScheme);
+                        var principal = new ClaimsPrincipal(identity);
+                        HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,principal);
+                        HttpContext.Session.SetString("SystemAdmin",u.UserId);
+                        return RedirectToAction("AdminDashboard","SystemAdmin" );
                     }
-                    else if (authenticatedUser.Urole == "Employee")
+                    else if (authenticatedUser.Urole == "Administrator")
                     {
-                        return RedirectToAction("EmployeeDashboard", "Employee");
+                        var identity = new ClaimsIdentity(new[] {
+                        new Claim(ClaimTypes.Name,u.UserId)},
+                        CookieAuthenticationDefaults.AuthenticationScheme);
+                        var principal = new ClaimsPrincipal(identity);
+                        HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
+                        HttpContext.Session.SetString("Administrator", u.UserId);
+                        return RedirectToAction("AdministratorDashboard", "Administrator");
                     }
-                    else if (authenticatedUser.Urole == "Manager")
+                    else if (authenticatedUser.Urole == "Teacher")
                     {
-                        return RedirectToAction("ManagerDashboard", "Manager");
+                        var identity = new ClaimsIdentity(new[] {
+                        new Claim(ClaimTypes.Name,u.UserId)},
+                        CookieAuthenticationDefaults.AuthenticationScheme);
+                        var principal = new ClaimsPrincipal(identity);
+                        HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
+                        HttpContext.Session.SetString("Teacher", u.UserId);
+                        return RedirectToAction("TeacherDashboard", "Teacher");
+                    }
+                    else if (authenticatedUser.Urole == "Librarian")
+                    {
+                        var identity = new ClaimsIdentity(new[] {
+                        new Claim(ClaimTypes.Name,u.UserId)},
+                        CookieAuthenticationDefaults.AuthenticationScheme);
+                        var principal = new ClaimsPrincipal(identity);
+                        HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
+                        HttpContext.Session.SetString("Librarian", u.UserId);
+                        return RedirectToAction("LibrarianDashboard", "Librarian");
+                    }
+                    else if (authenticatedUser.Urole == "Accountant")
+                    {
+                        var identity = new ClaimsIdentity(new[] {
+                        new Claim(ClaimTypes.Name,u.UserId)},
+                        CookieAuthenticationDefaults.AuthenticationScheme);
+                        var principal = new ClaimsPrincipal(identity);
+                        HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
+                        HttpContext.Session.SetString("Accountant", u.UserId);
+                        return RedirectToAction("AccountantDashboard", "Accountant");
+                    }
+                    else if (authenticatedUser.Urole == "Guardian")
+                    {
+                        var identity = new ClaimsIdentity(new[] {
+                        new Claim(ClaimTypes.Name,u.UserId)},
+                        CookieAuthenticationDefaults.AuthenticationScheme);
+                        var principal = new ClaimsPrincipal(identity);
+                        HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
+                        HttpContext.Session.SetString("Guardian", u.UserId);
+                        return RedirectToAction("GuardianDashboard", "Guardian");
+                    }
+                    else
+                    {
+                        var identity = new ClaimsIdentity(new[] {
+                        new Claim(ClaimTypes.Name,u.UserId)},
+                        CookieAuthenticationDefaults.AuthenticationScheme);
+                        var principal = new ClaimsPrincipal(identity);
+                        HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
+                        HttpContext.Session.SetString("Student", u.UserId);
+                        return RedirectToAction("StudentDashboard", "Student");
                     }
                 }
             }
