@@ -10,5 +10,6 @@ namespace SchoolManagementWebAPI.Data
 
         }
         public DbSet<User> Users { get; set; }
+        public DbSet<Administrator> Administrators { get; set; }    
     }
 }

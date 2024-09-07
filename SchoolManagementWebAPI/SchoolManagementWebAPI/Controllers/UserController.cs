@@ -38,6 +38,16 @@ namespace SchoolManagementWebAPI.Controllers
             }
             
         }
+
+        [Route("AddAdministrator")]
+        [HttpPost]
+        public IActionResult AddAdministrator(Administrator administrator)
+        {
+            var data = repo.AddAdministrator(administrator);
+            string Urole = "Administrator";
+            repo.AddUser(data.AdministratorUserId, data.Password, Urole);
+            return Ok("Administrator Added Successfully");
+        }
         
     }
 }

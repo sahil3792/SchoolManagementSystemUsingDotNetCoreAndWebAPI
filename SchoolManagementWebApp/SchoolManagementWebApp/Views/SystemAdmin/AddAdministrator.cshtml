@@ -1,0 +1,30 @@
+﻿@model Administrator
+
+<div class="container-fluid">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title fw-semibold mb-4">Forms</h5>
+            <div class="card">
+                <div class="card-body">
+                    <form method="post">
+                        <div class="mb-3">
+                            <label  class="form-label">Administrator UserID</label>
+                            <input type="text" class="form-control" asp-for="AdministratorUserId"  >
+                            
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Create a Password</label>
+                            <input type="password" class="form-control" asp-for="Password"/>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="py-6 px-6 text-center">
+        
+    </div>
+</div>

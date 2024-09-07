@@ -25,5 +25,20 @@ namespace SchoolManagementWebAPI.Repo
             return data;
 ;        }
 
+        public Administrator AddAdministrator(Administrator administrator)
+        {
+            db.Database.ExecuteSqlRaw($"exec AddAdministrator '{administrator.AdministratorUserId}','{administrator.Password}'");
+            var data = db.Administrators.FromSqlRaw($"exec FetchAdministratorByUserId '{administrator.AdministratorUserId}'").AsEnumerable().SingleOrDefault();
+            return data;
+
+        }
+
+        public void AddUser(string userid,string pass,string Urole)
+        {
+            db.Database.ExecuteSqlRaw($"exec insertUser '{userid}','{pass}','{Urole}'");
+        }
+
+        
+
     }
 }
