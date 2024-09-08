@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\SchoolManagementWebApp.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystem\\SchoolManagementWebApp\\SchoolManagementWebApp\\wwwroot\\Ajax\\JavaScript.js",
+      "PackagePath": "staticwebassets\\Ajax\\JavaScript.js"
+    },
+    {
       "Id": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystem\\SchoolManagementWebApp\\SchoolManagementWebApp\\wwwroot\\DashBoardLibs\\apexcharts\\LICENSE",
       "PackagePath": "staticwebassets\\DashBoardLibs\\apexcharts"
     },

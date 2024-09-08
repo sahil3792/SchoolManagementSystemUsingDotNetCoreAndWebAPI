@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Nu9Ia6dlsOfqTPegSuNTy2VDx29uRcZkZvTiWI0F0E0=",
+  "Hash": "XKWw+ASAScPrkgFs7jY8YD0ptXxNPh0dKHb3t8xilzk=",
   "Source": "SchoolManagementWebApp",
   "BasePath": "_content/SchoolManagementWebApp",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystem\\SchoolManagementWebApp\\SchoolManagementWebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SchoolManagementWebApp.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystem\\SchoolManagementWebApp\\SchoolManagementWebApp\\wwwroot\\Ajax\\JavaScript.js",
+      "SourceId": "SchoolManagementWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystem\\SchoolManagementWebApp\\SchoolManagementWebApp\\wwwroot\\",
+      "BasePath": "_content/SchoolManagementWebApp",
+      "RelativePath": "Ajax/JavaScript.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Ajax\\JavaScript.js"
     },
     {
       "Identity": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystem\\SchoolManagementWebApp\\SchoolManagementWebApp\\wwwroot\\css\\icons\\tabler-icons\\fonts\\tabler-icons.eot",

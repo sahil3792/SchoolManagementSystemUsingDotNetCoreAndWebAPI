@@ -2,6 +2,9 @@
 @if(HttpContextAccessor.HttpContext.Session.GetString("SystemAdmin")!= null)
 {
     Layout = "SystemAdminLayout";
+}else if(HttpContextAccessor.HttpContext.Session.GetString("Administrator")!=null)
+{
+    Layout = "AdministratorLayout";
 }
 else
 {

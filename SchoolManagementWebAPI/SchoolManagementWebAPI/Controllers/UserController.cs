@@ -48,6 +48,30 @@ namespace SchoolManagementWebAPI.Controllers
             repo.AddUser(data.AdministratorUserId, data.Password, Urole);
             return Ok("Administrator Added Successfully");
         }
-        
+
+        [Route("AddSubject")]
+        [HttpPost]
+        public IActionResult AddSubjects(Subject sub)
+        {
+            repo.AddSubjects(sub);
+            return Ok("Subject Add Successfully");
+        }
+
+        [Route("FetchAllSubjects")]
+        [HttpGet]
+        public IActionResult FetchAllSubjects()
+        {
+            var data = repo.GetSubjects();
+            return Ok(data);
+        }
+
+        [Route("AddTeacher")]
+        [HttpPost]
+        public IActionResult AddTeacher(Teacher teacher)
+        {
+            repo.AddTeacher(teacher);
+            return Ok("Teacher Added Successfully");
+        }
+
     }
 }
