@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystem\\SchoolManagementWebAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\user\\documents\\projects\\schoolmanagementsystem\\schoolmanagementwebapi\\schoolmanagementwebapi\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\user\\documents\\projects\\schoolmanagementsystem\\schoolmanagementwebapi\\schoolmanagementwebapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\user\\documents\\projects\\schoolmanagementsystem\\schoolmanagementwebapi\\schoolmanagementwebapi\\repo\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\repo\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\user\\documents\\projects\\schoolmanagementsystem\\schoolmanagementwebapi\\schoolmanagementwebapi\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\user\\documents\\projects\\schoolmanagementsystem\\schoolmanagementwebapi\\schoolmanagementwebapi\\models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,52 +66,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Teacher.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystem\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Models\\Teacher.cs",
               "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Models\\Teacher.cs",
               "ToolTip": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystem\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Models\\Teacher.cs",
               "RelativeToolTip": "SchoolManagementWebAPI\\Models\\Teacher.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAzwAwAAAAuAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwAwAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-08T15:09:49.67Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystem\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystem\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Controllers\\UserController.cs",
               "RelativeToolTip": "SchoolManagementWebAPI\\Controllers\\UserController.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAAAEcAAAAlAAAA",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAwEsAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-07T07:40:41.236Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystem\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Repo\\UserService.cs",
               "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Repo\\UserService.cs",
               "ToolTip": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystem\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Repo\\UserService.cs",
               "RelativeToolTip": "SchoolManagementWebAPI\\Repo\\UserService.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAIA8wDkAAAAMAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAnwD0AAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-07T12:41:53.969Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UserRepo.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystem\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Repo\\UserRepo.cs",
               "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Repo\\UserRepo.cs",
               "ToolTip": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystem\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Repo\\UserRepo.cs",
               "RelativeToolTip": "SchoolManagementWebAPI\\Repo\\UserRepo.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBMAAAATAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA1wBUAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-07T12:48:38.964Z",
               "EditorCaption": ""
@@ -126,8 +126,7 @@
               "RelativeToolTip": "SchoolManagementWebAPI\\Models\\Subject.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T12:22:39.679Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-08T12:22:39.679Z"
             },
             {
               "$type": "Document",

@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.SignalR;
 using Newtonsoft.Json;
 using SchoolManagementWebApp.Models;
 using System.Text;
@@ -18,6 +19,23 @@ namespace SchoolManagementWebApp.Controllers
         public IActionResult AdministratorDashboard()
         {
             return View();
+        }
+        public IActionResult FetchTeachers()
+        {
+            List<Teacher> teacher = new List<Teacher>();
+            string url = "https://localhost:7238/api/User/GetAllTeachers";
+            HttpResponseMessage response = client.GetAsync(url).Result;
+            if(response.IsSuccessStatusCode)
+            {
+                var jsondata = response.Content.ReadAsStringAsync().Result;
+                teacher = JsonConvert.DeserializeObject<List<Teacher>>(jsondata);
+                return Json(teacher);
+            }
+            else
+            {
+                TempData["Msg"]= "Couldn't Find Teachers please add teacher or contact System Admin";
+                return RedirectToAction("AdministratorDashboard");
+            }
         }
 
         public IActionResult AddClass()

@@ -57,6 +57,11 @@ namespace SchoolManagementWebAPI.Repo
             
             
         }
+        public List<Teacher> GetAllTeachers()
+        {
+            var data = db.Teachers.FromSqlRaw($"exec FetchAllTeachers").ToList();
+            return data;
+        }
 
 
     }

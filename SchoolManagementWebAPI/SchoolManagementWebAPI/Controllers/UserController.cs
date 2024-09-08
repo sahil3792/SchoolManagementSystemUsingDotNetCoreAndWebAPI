@@ -73,5 +73,13 @@ namespace SchoolManagementWebAPI.Controllers
             return Ok("Teacher Added Successfully");
         }
 
+        [Route("GetAllTeachers")]
+        [HttpGet]
+        public IActionResult GetAllTeacher()
+        {
+            var data = repo.GetAllTeachers();
+            return Ok(data); 
+        }
+
     }
 }

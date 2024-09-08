@@ -1,6 +1,6 @@
 ﻿$(document).ready(function () {
     GetSubjects();
-    alert("Document ready");
+    GetTeachers();
 });
 
 function GetSubjects() {
@@ -19,5 +19,27 @@ function GetSubjects() {
             console.error("Error fetching data: ", error);
             alert("Failed to load subjects: " + xhr.status + " - " + error);
         }
+    });
+}
+
+function GetTeachers() {
+    $.ajax({
+        url: '/Administrator/FetchTeachers',
+        type: 'Get',
+        dataType: 'json',
+        success: function (result, status, xhr) {
+            alert("options done");
+            var options = '<option value="">Select Teacher</option>';
+            $.each(result, function (index, item) {
+                option += "<option value='" + item.teacherUserId + "'>" + item.firstName + " " + item.lastName + "</option>";
+            });
+            
+            $('#GetTeachers').html(options);
+        },
+        error: function (xhr, status, error) {
+            console.error("Error fetching data: ", error);
+            alert("Failed to load subjects: " + xhr.status + " - " + error);
+        }
+
     });
 }

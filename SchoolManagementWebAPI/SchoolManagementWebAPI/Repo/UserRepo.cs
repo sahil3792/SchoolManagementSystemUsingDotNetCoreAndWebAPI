@@ -19,5 +19,7 @@ namespace SchoolManagementWebAPI.Repo
 
         public void AddTeacher(Teacher teacher);
 
+        public List<Teacher> GetAllTeachers();
+
     }
 }

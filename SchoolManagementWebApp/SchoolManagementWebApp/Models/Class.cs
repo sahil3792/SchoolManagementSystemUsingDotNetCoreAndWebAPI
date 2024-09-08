@@ -5,6 +5,6 @@
         public int Id { get; set; }
         public string ClassName { get; set; }   
         
-        public string TeacherCoordinator {  get; set; }
+        public string TeacherCoordinatorId {  get; set; }
     }
 }
