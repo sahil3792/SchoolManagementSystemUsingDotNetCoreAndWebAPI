@@ -81,5 +81,44 @@ namespace SchoolManagementWebAPI.Controllers
             return Ok(data); 
         }
 
+        [Route("AddGuardian")]
+        [HttpPost]
+        public IActionResult AddGuardian(Guardian g)
+        {
+            repo.AddGuardian(g);
+            return Ok("Guardian Added Successfully");
+        }
+
+        [Route("FetchAllGuardians")]
+        [HttpGet]
+        public IActionResult FetchAllGuardian()
+        {
+            var data = repo.GetAllGuardian();
+            return Ok(data);
+        }
+
+        [Route("FetchAllClasses")]
+        [HttpGet]
+        public IActionResult FetchAllClasses()
+        {
+            var data = repo.GetAllClass();
+            return Ok(data);
+        }
+
+        [Route("AddClass")]
+        [HttpPost]
+        public IActionResult AddClass(Class c)
+        {
+            repo.AddClass(c);
+            return Ok("Class Added Successfully");
+        }
+
+        [Route("AddStudent")]
+        [HttpPost]
+        public IActionResult AddStudent(Student s)
+        {
+            repo.AddStudent(s);
+            return Ok();
+        }
     }
 }

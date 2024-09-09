@@ -21,5 +21,15 @@ namespace SchoolManagementWebAPI.Repo
 
         public List<Teacher> GetAllTeachers();
 
+        public void AddGuardian(Guardian g);
+
+        public List<Guardian> GetAllGuardian();
+
+        public List<Class> GetAllClass();
+
+        public void AddClass(Class c);
+
+        public void AddStudent(Student student);
+
     }
 }

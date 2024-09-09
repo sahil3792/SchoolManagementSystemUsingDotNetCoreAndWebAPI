@@ -38,6 +38,41 @@ namespace SchoolManagementWebApp.Controllers
             }
         }
 
+        public IActionResult FetchGuardian()
+        {
+            List<Guardian> guardian = new List<Guardian>();
+            string url = "https://localhost:7238/api/User/FetchAllGuardians";
+            HttpResponseMessage message = client.GetAsync(url).Result;
+            if(message.IsSuccessStatusCode)
+            {
+                var jsondata = message.Content.ReadAsStringAsync().Result;
+                guardian = JsonConvert.DeserializeObject<List<Guardian>>(jsondata);
+                return Json(guardian);
+            }
+            else
+            {
+                TempData["Msg"] = "Couldn't Find Guardian Please add Guardian or Contact System Admin";
+                return RedirectToAction("AdministratorDashboard");
+            }
+        }
+        public IActionResult FetchClass()
+        {
+            List <Class> classes = new List<Class>();
+            string url = "https://localhost:7238/api/User/FetchAllClasses";
+            HttpResponseMessage message = client.GetAsync(url).Result;
+            if(message.IsSuccessStatusCode)
+            {
+                var jsondata = message.Content.ReadAsStringAsync().Result;
+                classes = JsonConvert.DeserializeObject<List<Class>>(jsondata);
+                return Json(classes);
+            }
+            else
+            {
+                TempData["Msg"] = "Couldn't Find Classes Please add Class or Contact System Admin";
+                return RedirectToAction("AdministratorDashboard");
+            }
+        }
+
         public IActionResult AddClass()
         {
             return View();
@@ -88,6 +123,28 @@ namespace SchoolManagementWebApp.Controllers
         public IActionResult AdmitStudent()
         {
             return View();
+        }
+
+        [HttpPost]
+        public IActionResult AdmitStudent(Student s)
+        {
+            
+            string url = "https://localhost:7238/api/User/AddStudent";
+            var jsondata = JsonConvert.SerializeObject(s);
+            StringContent content = new StringContent(jsondata, Encoding.UTF8, "application/json");
+            HttpResponseMessage message = client.PostAsync(url, content).Result;
+            if(message.IsSuccessStatusCode)
+            {
+                TempData["Msg"] = "Student Added Successfully";
+                return RedirectToAction("AdministratorDashboard");
+
+            }
+            else
+            {
+                return View();
+
+            }
+            
         }
 
         public IActionResult AddSubjects()

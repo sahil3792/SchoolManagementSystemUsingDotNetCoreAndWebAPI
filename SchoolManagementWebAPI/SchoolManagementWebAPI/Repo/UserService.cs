@@ -63,6 +63,36 @@ namespace SchoolManagementWebAPI.Repo
             return data;
         }
 
+        public void AddGuardian(Guardian g)
+        {
+            db.Database.ExecuteSqlRaw($"exec AddGuardian '{g.GuardianId}','{g.Password}','{g.FirstName}','{g.LastName}','{g.Relationship}','{g.ContactNumber}','{g.Email}','{g.Address}'");
+            var Urole = "Guardian";
+            db.Database.ExecuteSqlRaw($"exec insertUser '{g.GuardianId}','{g.Password}','{Urole}'");
+        }
+        public List<Guardian> GetAllGuardian()
+        {
+            var data = db.Guardians.FromSqlRaw($"exec FetchAllGuardians").ToList();
+            return data;
+        }
+
+        public List<Class> GetAllClass()
+        {
+            var data = db.Classes.FromSqlRaw($"exec FetchAllClasses").ToList();
+            return data;
+        }
+        public void AddClass(Class c)
+        {
+            db.Database.ExecuteSqlRaw($"exec AddClass '{c.ClassName}','{c.TeacherCoordinatorId}'");
+        }
+
+        public void AddStudent(Student s)
+        {
+            s.EnrollmentDate = DateOnly.FromDateTime(DateTime.Now);
+            db.Database.ExecuteSqlRaw($"exec AddStudent '{s.StudentId}','{s.Password}','{s.FirstName}','{s.MiddleName}','{s.LastName}','{s.DateOfBirth}','{s.Gender}','{s.Address}','{s.ContactNumber}','{s.Email}','{s.EnrollmentDate}','{s.GuardianId}','{s.ClassId}'");
+            var urole = "Student";
+            db.Database.ExecuteSqlRaw($"exec insertUser '{s.StudentId}','{s.Password}','{urole}'");
+        }
+
 
     }
 }
