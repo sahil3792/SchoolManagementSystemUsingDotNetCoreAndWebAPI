@@ -42,10 +42,48 @@ namespace SchoolManagementWebApp.Controllers
         {
             return View();
         }
+        [HttpPost]
+        public IActionResult AddClass(Class c)
+        {
+            string url = "https://localhost:7238/api/User/AddClass";
+            var jsondata = JsonConvert.SerializeObject(c);
+            StringContent content = new StringContent(jsondata,Encoding.UTF8,"application/json");
+            HttpResponseMessage response = client.PostAsync(url, content).Result;
+            if(response.IsSuccessStatusCode)
+            {
+                TempData["Msg"] = "Class Added Successfully";
+                return RedirectToAction("AdministratorDashboard");
+            }
+            else
+            {
+                TempData["Msg"] = "Something Went Wrong please try again later or Contact the system Admin";
+                return View();
+            }
+            
+        }
 
         public IActionResult AddGuardian()
         {
             return View();
+        }
+
+        [HttpPost]
+        public IActionResult AddGuardian(Guardian guardian)
+        {
+            string url = "https://localhost:7238/api/User/AddGuardian";
+            var jsondata = JsonConvert.SerializeObject(guardian);
+            StringContent content = new StringContent(jsondata, Encoding.UTF8, "application/json");
+            HttpResponseMessage message = client.PostAsync(url, content).Result;
+            if(message.IsSuccessStatusCode)
+            {
+                TempData["Msg"] = "Guardian Added Successfully";
+                return RedirectToAction("AdministratorDashboard");
+            }
+            else
+            {
+                TempData["Msg"] = "Something went wrong.If error Continues then Contact SystemAdmin";
+                return View();
+            }
         }
         public IActionResult AdmitStudent()
         {

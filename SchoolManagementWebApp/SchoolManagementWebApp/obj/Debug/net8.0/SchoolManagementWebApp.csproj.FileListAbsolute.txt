@@ -32,3 +32,37 @@ C:\Users\USER\Documents\Projects\SchoolManagementSystem\SchoolManagementWebApp\S
 C:\Users\USER\Documents\Projects\SchoolManagementSystem\SchoolManagementWebApp\SchoolManagementWebApp\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\USER\Documents\Projects\SchoolManagementSystem\SchoolManagementWebApp\SchoolManagementWebApp\obj\Debug\net8.0\SchoolManagementWebApp.csproj.AssemblyReference.cache
 C:\Users\USER\Documents\Projects\SchoolManagementSystem\SchoolManagementWebApp\SchoolManagementWebApp\obj\Debug\net8.0\SchoolMa.7697464A.Up2Date
+C:\Users\Admin\Desktop\Sahil Shaikh\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Admin\Desktop\Sahil Shaikh\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp\bin\Debug\net8.0\appsettings.json
+C:\Users\Admin\Desktop\Sahil Shaikh\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp\bin\Debug\net8.0\SchoolManagementWebApp.staticwebassets.runtime.json
+C:\Users\Admin\Desktop\Sahil Shaikh\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp\bin\Debug\net8.0\SchoolManagementWebApp.exe
+C:\Users\Admin\Desktop\Sahil Shaikh\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp\bin\Debug\net8.0\SchoolManagementWebApp.deps.json
+C:\Users\Admin\Desktop\Sahil Shaikh\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp\bin\Debug\net8.0\SchoolManagementWebApp.runtimeconfig.json
+C:\Users\Admin\Desktop\Sahil Shaikh\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp\bin\Debug\net8.0\SchoolManagementWebApp.dll
+C:\Users\Admin\Desktop\Sahil Shaikh\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp\bin\Debug\net8.0\SchoolManagementWebApp.pdb
+C:\Users\Admin\Desktop\Sahil Shaikh\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\Sahil Shaikh\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp\obj\Debug\net8.0\SchoolManagementWebApp.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Sahil Shaikh\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp\obj\Debug\net8.0\SchoolManagementWebApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Sahil Shaikh\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp\obj\Debug\net8.0\SchoolManagementWebApp.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Sahil Shaikh\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp\obj\Debug\net8.0\SchoolManagementWebApp.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Sahil Shaikh\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp\obj\Debug\net8.0\SchoolManagementWebApp.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Sahil Shaikh\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp\obj\Debug\net8.0\SchoolManagementWebApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admin\Desktop\Sahil Shaikh\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp\obj\Debug\net8.0\SchoolManagementWebApp.RazorAssemblyInfo.cache
+C:\Users\Admin\Desktop\Sahil Shaikh\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp\obj\Debug\net8.0\SchoolManagementWebApp.RazorAssemblyInfo.cs
+C:\Users\Admin\Desktop\Sahil Shaikh\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp\obj\Debug\net8.0\SchoolManagementWebApp.sourcelink.json
+C:\Users\Admin\Desktop\Sahil Shaikh\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Admin\Desktop\Sahil Shaikh\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Admin\Desktop\Sahil Shaikh\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp\obj\Debug\net8.0\staticwebassets\msbuild.SchoolManagementWebApp.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Admin\Desktop\Sahil Shaikh\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp\obj\Debug\net8.0\staticwebassets\msbuild.build.SchoolManagementWebApp.props
+C:\Users\Admin\Desktop\Sahil Shaikh\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.SchoolManagementWebApp.props
+C:\Users\Admin\Desktop\Sahil Shaikh\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.SchoolManagementWebApp.props
+C:\Users\Admin\Desktop\Sahil Shaikh\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Admin\Desktop\Sahil Shaikh\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Admin\Desktop\Sahil Shaikh\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp\obj\Debug\net8.0\scopedcss\bundle\SchoolManagementWebApp.styles.css
+C:\Users\Admin\Desktop\Sahil Shaikh\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp\obj\Debug\net8.0\scopedcss\projectbundle\SchoolManagementWebApp.bundle.scp.css
+C:\Users\Admin\Desktop\Sahil Shaikh\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp\obj\Debug\net8.0\SchoolMa.7697464A.Up2Date
+C:\Users\Admin\Desktop\Sahil Shaikh\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp\obj\Debug\net8.0\SchoolManagementWebApp.dll
+C:\Users\Admin\Desktop\Sahil Shaikh\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp\obj\Debug\net8.0\refint\SchoolManagementWebApp.dll
+C:\Users\Admin\Desktop\Sahil Shaikh\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp\obj\Debug\net8.0\SchoolManagementWebApp.pdb
+C:\Users\Admin\Desktop\Sahil Shaikh\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp\obj\Debug\net8.0\SchoolManagementWebApp.genruntimeconfig.cache
+C:\Users\Admin\Desktop\Sahil Shaikh\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp\obj\Debug\net8.0\ref\SchoolManagementWebApp.dll

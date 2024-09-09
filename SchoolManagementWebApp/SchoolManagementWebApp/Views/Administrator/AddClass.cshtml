@@ -1,5 +1,7 @@
 ﻿@model Class
 
+
+<partial name="Notification"></partial>
 <div class="container-fluid">
     <div class="card">
         <div class="card-body">
@@ -14,8 +16,8 @@
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputPassword1" class="form-label">Select Teacher Coordinator</label>
-                            <select class="form-control" id="GetTeachers" >
-
+                            <select class="form-control" id="FetchTeacherData" asp-for="TeacherCoordinatorId">
+                                <option>select teacher</option>
                             </select>
                         </div>
 

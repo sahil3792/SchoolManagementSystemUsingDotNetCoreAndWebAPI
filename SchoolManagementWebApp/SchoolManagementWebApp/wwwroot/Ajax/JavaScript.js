@@ -31,10 +31,10 @@ function GetTeachers() {
             alert("options done");
             var options = '<option value="">Select Teacher</option>';
             $.each(result, function (index, item) {
-                option += "<option value='" + item.teacherUserId + "'>" + item.firstName + " " + item.lastName + "</option>";
+                options += "<option value='" + item.teacherUserId + "'>" + item.firstName + " "+item.lastName+ "</option>";
             });
             
-            $('#GetTeachers').html(options);
+            $("#FetchTeacherData").html(options);
         },
         error: function (xhr, status, error) {
             console.error("Error fetching data: ", error);
