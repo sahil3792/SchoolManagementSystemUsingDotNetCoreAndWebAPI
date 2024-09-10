@@ -6,6 +6,10 @@
 {
     Layout = "AdministratorLayout";
 }
+else if (HttpContextAccessor.HttpContext.Session.GetString("Student") != null)
+{
+    Layout = "StudentLayout";
+}
 else
 {
     Layout = "_Layout";

@@ -120,5 +120,13 @@ namespace SchoolManagementWebAPI.Controllers
             repo.AddStudent(s);
             return Ok();
         }
+
+        [Route("AddTimetable")]
+        [HttpPost]
+        public IActionResult AddTimetable(Timetable tt)
+        {
+            repo.AddTimetable(tt);
+            return Ok("Timetable added successfully");
+        }
     }
 }

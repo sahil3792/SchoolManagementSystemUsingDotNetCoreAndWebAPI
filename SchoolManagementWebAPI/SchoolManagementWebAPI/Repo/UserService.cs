@@ -93,6 +93,11 @@ namespace SchoolManagementWebAPI.Repo
             db.Database.ExecuteSqlRaw($"exec insertUser '{s.StudentId}','{s.Password}','{urole}'");
         }
 
+        public void AddTimetable(Timetable tt)
+        {
+            db.Database.ExecuteSqlRaw($"exec AddTimetable '{tt.ClassId}','{tt.Day}','{tt.StartTime}','{tt.EndTime}','{tt.Subject}','{tt.TeacherId}'");
+        }
+
 
     }
 }

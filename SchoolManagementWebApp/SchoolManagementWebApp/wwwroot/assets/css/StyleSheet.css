@@ -1,0 +1,64 @@
+﻿.timetable {
+    display: grid;
+    grid-template-columns: 100px repeat(5, 1fr); /* Time column + 5 days */
+    grid-template-rows: repeat(10, minmax(50px, 1fr)); /* Adjust row height to fit more slots */
+    gap: 10px;
+    padding: 20px;
+    max-height: 80vh; /* Adjust to fit in view */
+    overflow-y: auto; /* Add scroll if necessary */
+}
+
+/* Time Column */
+.time-column {
+    grid-column: 1 / 2;
+    text-align: right;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+/* Day Headers */
+.day-header {
+    text-align: center;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+
+/* Event Styling */
+.event {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 12px; /* Reduce font size */
+    text-align: center;
+}
+
+.event-abs {
+    background-color: #4A90E2;
+}
+
+.event-rowing {
+    background-color: #6C5B7B;
+}
+
+.event-yoga {
+    background-color: #A8E6CE;
+}
+
+.event-restorative {
+    background-color: #FF847C;
+}
+
+/* Make the table more responsive */
+@media (max-width: 768px) {
+    .timetable {
+        grid-template-columns: 80px repeat(5, 1fr); /* Adjust time column for smaller screens */
+        grid-template-rows: repeat(10, minmax(40px, 1fr)); /* Reduce row heights for smaller screens */
+    }
+
+    .event {
+        font-size: 10px; /* Reduce font size on smaller screens */
+    }
+}

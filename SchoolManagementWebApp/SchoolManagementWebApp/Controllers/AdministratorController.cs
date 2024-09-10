@@ -221,5 +221,25 @@ namespace SchoolManagementWebApp.Controllers
 
         }
 
+        [HttpPost]
+        public IActionResult AddTimetable(Timetable tt)
+        {
+            string url = "https://localhost:7238/api/User/AddTimetable";
+            var jsondata = JsonConvert.SerializeObject(tt);
+            StringContent content = new StringContent(jsondata, Encoding.UTF8, "application/json");
+            HttpResponseMessage response = client.PostAsync(url,content).Result;
+            if (response.IsSuccessStatusCode)
+            {
+                TempData["Msg"] = "TimeTable Added Successfully";
+                return RedirectToAction("AddTimetable");
+            }
+            else
+            {
+                TempData["Msg"] = "Couldn't add Timetable please try again";
+                return View();
+            }
+            
+        }
+
     }
 }

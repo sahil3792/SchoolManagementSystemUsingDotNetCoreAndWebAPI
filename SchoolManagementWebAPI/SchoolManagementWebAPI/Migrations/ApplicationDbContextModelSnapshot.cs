@@ -254,9 +254,8 @@ namespace SchoolManagementWebAPI.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Subject")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("Subject")
+                        .HasColumnType("int");
 
                     b.Property<string>("TeacherId")
                         .IsRequired()
