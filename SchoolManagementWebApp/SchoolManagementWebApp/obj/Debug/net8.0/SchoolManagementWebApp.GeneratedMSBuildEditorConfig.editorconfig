@@ -9,87 +9,91 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SchoolManagementWebApp
 build_property.RootNamespace = SchoolManagementWebApp
-build_property.ProjectDir = C:\Users\USER\Documents\Projects\SchoolManagementSystem\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp\
+build_property.ProjectDir = C:\Users\Admin\Desktop\Sahil Shaikh\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\USER\Documents\Projects\SchoolManagementSystem\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp
+build_property.MSBuildProjectDirectory = C:\Users\Admin\Desktop\Sahil Shaikh\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/USER/Documents/Projects/SchoolManagementSystem/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Administrator/AddClass.cshtml]
+[C:/Users/Admin/Desktop/Sahil Shaikh/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Administrator/AddClass.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxBZGRDbGFzcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/Projects/SchoolManagementSystem/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Administrator/AddGuardian.cshtml]
+[C:/Users/Admin/Desktop/Sahil Shaikh/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Administrator/AddGuardian.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxBZGRHdWFyZGlhbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/Projects/SchoolManagementSystem/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Administrator/AddSubjects.cshtml]
+[C:/Users/Admin/Desktop/Sahil Shaikh/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Administrator/AddSubjects.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxBZGRTdWJqZWN0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/Projects/SchoolManagementSystem/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Administrator/AddTeacher.cshtml]
+[C:/Users/Admin/Desktop/Sahil Shaikh/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Administrator/AddTeacher.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxBZGRUZWFjaGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/Projects/SchoolManagementSystem/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Administrator/AdministratorDashboard.cshtml]
+[C:/Users/Admin/Desktop/Sahil Shaikh/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Administrator/AddTimetable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxBZGRUaW1ldGFibGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Sahil Shaikh/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Administrator/AdministratorDashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxBZG1pbmlzdHJhdG9yRGFzaGJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/Projects/SchoolManagementSystem/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Administrator/AdmitStudent.cshtml]
+[C:/Users/Admin/Desktop/Sahil Shaikh/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Administrator/AdmitStudent.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxBZG1pdFN0dWRlbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/Projects/SchoolManagementSystem/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Home/Index.cshtml]
+[C:/Users/Admin/Desktop/Sahil Shaikh/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/Projects/SchoolManagementSystem/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Home/Privacy.cshtml]
+[C:/Users/Admin/Desktop/Sahil Shaikh/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/Projects/SchoolManagementSystem/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Index/Index.cshtml]
+[C:/Users/Admin/Desktop/Sahil Shaikh/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Index/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5kZXhcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/Projects/SchoolManagementSystem/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Shared/AdministratorLayout.cshtml]
+[C:/Users/Admin/Desktop/Sahil Shaikh/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Shared/AdministratorLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFkbWluaXN0cmF0b3JMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/Projects/SchoolManagementSystem/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Shared/Error.cshtml]
+[C:/Users/Admin/Desktop/Sahil Shaikh/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/Projects/SchoolManagementSystem/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Shared/Notification.cshtml]
+[C:/Users/Admin/Desktop/Sahil Shaikh/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Shared/Notification.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE5vdGlmaWNhdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/Projects/SchoolManagementSystem/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Shared/SystemAdminLayout.cshtml]
+[C:/Users/Admin/Desktop/Sahil Shaikh/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Shared/SystemAdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFN5c3RlbUFkbWluTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/Projects/SchoolManagementSystem/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Admin/Desktop/Sahil Shaikh/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/Projects/SchoolManagementSystem/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/SystemAdmin/AddAdministrator.cshtml]
+[C:/Users/Admin/Desktop/Sahil Shaikh/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/SystemAdmin/AddAdministrator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3lzdGVtQWRtaW5cQWRkQWRtaW5pc3RyYXRvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/Projects/SchoolManagementSystem/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/SystemAdmin/AdminDashboard.cshtml]
+[C:/Users/Admin/Desktop/Sahil Shaikh/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/SystemAdmin/AdminDashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3lzdGVtQWRtaW5cQWRtaW5EYXNoYm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/Projects/SchoolManagementSystem/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/_ViewImports.cshtml]
+[C:/Users/Admin/Desktop/Sahil Shaikh/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/Projects/SchoolManagementSystem/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/_ViewStart.cshtml]
+[C:/Users/Admin/Desktop/Sahil Shaikh/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Documents/Projects/SchoolManagementSystem/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Shared/_Layout.cshtml]
+[C:/Users/Admin/Desktop/Sahil Shaikh/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-vkfuuydjrl

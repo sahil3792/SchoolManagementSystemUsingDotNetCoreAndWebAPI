@@ -215,5 +215,11 @@ namespace SchoolManagementWebApp.Controllers
             }
         }
 
+        public IActionResult AddTimetable()
+        {
+            return View();
+
+        }
+
     }
 }

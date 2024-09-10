@@ -16,5 +16,6 @@ namespace SchoolManagementWebAPI.Data
         public DbSet<Guardian> Guardians { get; set; }
         public DbSet<Class> Classes { get; set; }
         public DbSet<Student> Students { get; set; }
+        public DbSet<Timetable> Timetables { get; set; }    
     }
 }

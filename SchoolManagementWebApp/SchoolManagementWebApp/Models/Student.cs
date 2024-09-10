@@ -14,7 +14,7 @@
         public string ContactNumber { get; set; }   
         public string Email {  get; set; }  
         public DateOnly EnrollmentDate { get; set; }
-        public int GuardianId { get; set; }
+        public string GuardianId { get; set; }
         public int ClassId { get; set; }
 
     }
