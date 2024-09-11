@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using SchoolManagementWebAPI.Models;
 using SchoolManagementWebAPI.Repo;
 
 namespace SchoolManagementWebAPI.Controllers
@@ -13,11 +14,27 @@ namespace SchoolManagementWebAPI.Controllers
             this.repo = repo;
         }
         [Route("FetchStudentByClassID/{id}")]
-        [HttpPost]
-        public IActionResult FetchStudentsByClassId(int id)
+        [HttpGet]
+        public IActionResult FetchStudentsByClassId(string id)
         {
             var data = repo.FetchAllStudentbyClassid(id);
             return Ok(data);
+        }
+
+        [Route("FetchTeachersLeavesBasedOnTeacherId/{id}")]
+        [HttpGet]
+        public IActionResult FetchTeachersLeavesBasedOnTeacherId(string id)
+        {
+            var data=repo.FetchAllTeacherLeavesBasedOnTeacherId(id).AsEnumerable();
+            return Ok(data);
+        }
+
+        [Route("AddTeacherLeave")]
+        [HttpPost]
+        public IActionResult AddTeacherLeave(TeacherLeave tl)
+        {
+            repo.AddTeacherLeave(tl);
+            return Ok("Successfully added leave");
         }
     }
 }

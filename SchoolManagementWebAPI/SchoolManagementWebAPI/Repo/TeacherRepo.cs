@@ -5,6 +5,10 @@ namespace SchoolManagementWebAPI.Repo
     public interface TeacherRepo
     {
 
-        public List<Student> FetchAllStudentbyClassid(int teacherid);
+        public List<Student> FetchAllStudentbyClassid(string teacherid);
+
+        public List<TeacherLeave> FetchAllTeacherLeavesBasedOnTeacherId(string teacherid);
+
+        public void AddTeacherLeave(TeacherLeave tl);
     }
 }

@@ -1,0 +1,49 @@
+﻿@model List<TeacherLeave>
+
+
+<partial name="Notification"></partial>
+<div class="container-fluid">
+    <div class="card">
+        <div class="card-body">
+            <!-- Button trigger modal -->
+            <a asp-controller="Teacher" asp-action="ApplyLeave"><input type="button" value="Apply Leave" class="btn btn-info m-1" /></a>
+
+            
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+
+                        <th scope="col">Leavetype</th>
+                        <th scope="col">StartDate</th>
+                        <th scope="col">EndDate</th>
+                        <th scope="col">LeaveReason</th>
+                        <th scope="col">Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model)
+        {
+            <tr>
+                
+                <td>@item.Leavetype</td>
+                <td>@item.StartDate</td>
+                <td>@item.EndDate</td>
+                <td>@item.LeaveReason</td>
+                <td>@item.Status</td>
+            </tr>
+        }
+        
+       
+    </tbody>
+</table>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
