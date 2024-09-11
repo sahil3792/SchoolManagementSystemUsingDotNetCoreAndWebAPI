@@ -78,6 +78,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFN5c3RlbUFkbWluTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Admin/Desktop/Sahil Shaikh/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Shared/TeacherLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFRlYWNoZXJMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Admin/Desktop/Sahil Shaikh/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -96,6 +100,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Admin/Desktop/Sahil Shaikh/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/SystemAdmin/AdminDashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3lzdGVtQWRtaW5cQWRtaW5EYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Sahil Shaikh/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Teacher/AddAttendance.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxBZGRBdHRlbmRhbmNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Sahil Shaikh/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Teacher/TeacherDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxUZWFjaGVyRGFzaGJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Admin/Desktop/Sahil Shaikh/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/_ViewImports.cshtml]

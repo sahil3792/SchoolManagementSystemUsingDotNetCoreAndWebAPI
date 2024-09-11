@@ -10,6 +10,10 @@ else if (HttpContextAccessor.HttpContext.Session.GetString("Student") != null)
 {
     Layout = "StudentLayout";
 }
+else if(HttpContextAccessor.HttpContext.Session.GetString("Teacher")!= null)
+{
+    Layout = "TeacherLayout";
+}
 else
 {
     Layout = "_Layout";
