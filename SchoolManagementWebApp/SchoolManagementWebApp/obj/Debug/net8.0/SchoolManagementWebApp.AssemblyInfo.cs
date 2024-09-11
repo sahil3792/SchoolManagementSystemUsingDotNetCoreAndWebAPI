@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SchoolManagementWebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac1a545430eda30fa7733f3b2e19c5492cf9b189")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3d7a078aeff8a99d81c2ec5b1d9dfdeec467099")]
 [assembly: System.Reflection.AssemblyProductAttribute("SchoolManagementWebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SchoolManagementWebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

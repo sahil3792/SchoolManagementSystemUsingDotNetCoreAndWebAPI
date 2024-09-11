@@ -1,11 +1,13 @@
-﻿<!DOCTYPE html>
+﻿@model List<Timetable>
+
+<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weekly Schedule</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
-
     <link href="~/assets/css/stylesheet.css" rel="stylesheet" />
 </head>
 <body>
@@ -16,16 +18,10 @@
 
     <div class="container timetable">
         <!-- Time Column -->
-        <div class="time-column">09:00</div>
-        <div class="time-column">10:00</div>
-        <div class="time-column">11:00</div>
-        <div class="time-column">12:00</div>
-        <div class="time-column">13:00</div>
-        <div class="time-column">14:00</div>
-        <div class="time-column">15:00</div>
-        <div class="time-column">16:00</div>
-        <div class="time-column">17:00</div>
-        <div class="time-column">18:00</div>
+        @for (int hour = 9; hour <= 18; hour++)
+        {
+            <div class="time-column">@hour:00</div>
+        }
 
         <!-- Day Headers -->
         <div class="day-header">Monday</div>
@@ -34,33 +30,26 @@
         <div class="day-header">Thursday</div>
         <div class="day-header">Friday</div>
 
-        <!-- Monday Events -->
-        <div class="event event-abs" style="grid-column: 2; grid-row: 2 / 3;">09:30 - 10:30<br>Abs Circuit</div>
-        <div class="event event-rowing" style="grid-column: 2; grid-row: 3 / 4;">11:00 - 12:30<br>Rowing Workout</div>
-        <div class="event event-yoga" style="grid-column: 2; grid-row: 5 / 6;">14:00 - 15:15<br>Yoga Level 1</div>
+        <!-- Events -->
+        @foreach (var item in Model)
+        {
+            var gridColumn = item.Day switch
+            {
+                "Monday" => 2,
+                "Tuesday" => 3,
+                "Wednesday" => 4,
+                "Thursday" => 5,
+                "Friday" => 6,
+                _ => 0
+            };
 
-        <!-- Tuesday Events -->
-        <div class="event event-rowing" style="grid-column: 3; grid-row: 2 / 3;">10:00 - 11:00<br>Rowing Workout</div>
-        <div class="event event-restorative" style="grid-column: 3; grid-row: 3 / 4;">11:30 - 13:00<br>Restorative Yoga</div>
-        <div class="event event-abs" style="grid-column: 3; grid-row: 5 / 6;">13:30 - 15:00<br>Abs Circuit</div>
-        <div class="event event-yoga" style="grid-column: 3; grid-row: 6 / 7;">15:45 - 16:45<br>Yoga Level 1</div>
+            var startHour = DateTime.Parse(item.StartTime).Hour - 8;
+            var endHour = DateTime.Parse(item.EndTime).Hour - 8;
 
-        <!-- Wednesday Events -->
-        <div class="event event-restorative" style="grid-column: 4; grid-row: 1 / 2;">09:00 - 10:15<br>Restorative Yoga</div>
-        <div class="event event-yoga" style="grid-column: 4; grid-row: 2 / 3;">10:45 - 11:45<br>Yoga Level 1</div>
-        <div class="event event-rowing" style="grid-column: 4; grid-row: 3 / 4;">12:00 - 13:45<br>Rowing Workout</div>
-        <div class="event event-yoga" style="grid-column: 4; grid-row: 5 / 6;">13:45 - 15:00<br>Yoga Level 1</div>
-
-        <!-- Thursday Events -->
-        <div class="event event-abs" style="grid-column: 5; grid-row: 2 / 3;">09:30 - 10:30<br>Abs Circuit</div>
-        <div class="event event-restorative" style="grid-column: 5; grid-row: 3 / 4;">12:00 - 13:45<br>Restorative Yoga</div>
-        <div class="event event-abs" style="grid-column: 5; grid-row: 5 / 6;">15:30 - 16:30<br>Abs Circuit</div>
-        <div class="event event-rowing" style="grid-column: 5; grid-row: 6 / 7;">17:00 - 18:30<br>Rowing Workout</div>
-
-        <!-- Friday Events -->
-        <div class="event event-rowing" style="grid-column: 6; grid-row: 2 / 3;">10:00 - 11:00<br>Rowing Workout</div>
-        <div class="event event-abs" style="grid-column: 6; grid-row: 4 / 5;">12:30 - 14:00<br>Abs Circuit</div>
-        <div class="event event-yoga" style="grid-column: 6; grid-row: 6 / 7;">15:45 - 16:45<br>Yoga Level 1</div>
+            <div class="event" style="grid-column: @gridColumn; grid-row: @startHour / @endHour;">
+                @item.StartTime - @item.EndTime<br>@item.Subject - @item.TeacherId
+            </div>
+        }
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
