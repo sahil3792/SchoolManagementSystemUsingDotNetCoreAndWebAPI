@@ -18,5 +18,9 @@ namespace SchoolManagementWebAPI.Data
         public DbSet<Student> Students { get; set; }
         public DbSet<Timetable> Timetables { get; set; }    
         public DbSet<TeacherLeave> TeachersLeaves { get; set; }
+        public DbSet<Librarian> librarians { get; set; }
+        public DbSet<Book> Books { get; set; }
+        public DbSet<IssuedBook> IssuedBooks { get; set; }
+        public DbSet<Reservation> Reservations { get; set; }
     }
 }

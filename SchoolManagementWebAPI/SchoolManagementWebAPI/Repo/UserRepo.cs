@@ -32,5 +32,7 @@ namespace SchoolManagementWebAPI.Repo
         public void AddStudent(Student student);
         public void AddTimetable(Timetable tt);
 
+        public void AddLibrarian(Librarian lb);
+
     }
 }

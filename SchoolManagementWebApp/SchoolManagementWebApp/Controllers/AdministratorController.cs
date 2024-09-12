@@ -241,5 +241,30 @@ namespace SchoolManagementWebApp.Controllers
             
         }
 
+        public IActionResult AddLibrarian()
+        {
+            return View();
+
+        }
+
+        [HttpPost]
+        public IActionResult AddLibrarian(Librarian lb)
+        {
+            string url = "https://localhost:7238/api/User/AddLibrarian";
+            var jsondata = JsonConvert.SerializeObject(lb);
+            StringContent content = new StringContent(jsondata, Encoding.UTF8, "application/json");
+            HttpResponseMessage message = client.PostAsync(url,content).Result;
+            if (message.IsSuccessStatusCode)
+            {
+                TempData["Msg"] = "Librarian Added Successfully";
+                return RedirectToAction("AdministratorDashboard");
+            }
+            else
+            {
+                TempData["Msg"] = "Something Went Wrong";
+                return View();
+            }
+        }
+
     }
 }

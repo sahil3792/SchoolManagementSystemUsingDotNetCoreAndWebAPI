@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using SchoolManagementWebAPI.Data;
 using SchoolManagementWebAPI.Models;
 
@@ -98,6 +99,13 @@ namespace SchoolManagementWebAPI.Repo
             db.Database.ExecuteSqlRaw($"exec AddTimetable '{tt.ClassId}','{tt.Day}','{tt.StartTime}','{tt.EndTime}','{tt.Subject}','{tt.TeacherId}'");
         }
 
+
+        public void AddLibrarian(Librarian lb)
+        {
+            db.Database.ExecuteSqlRaw($"exec AddLibrarian '{lb.LibrarianId}','{lb.password}','{lb.FirstName}','{lb.LastName}'");
+            var urole = "Librarian";
+            db.Database.ExecuteSqlRaw($"exec insertUser '{lb.LibrarianId}','{lb.password}','{urole}'");
+        }
 
     }
 }

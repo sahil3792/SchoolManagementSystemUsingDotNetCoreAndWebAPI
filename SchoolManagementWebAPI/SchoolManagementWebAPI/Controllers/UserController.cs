@@ -128,5 +128,13 @@ namespace SchoolManagementWebAPI.Controllers
             repo.AddTimetable(tt);
             return Ok("Timetable added successfully");
         }
+
+        [Route("AddLibrarian")]
+        [HttpPost]
+        public IActionResult AddLibrarian(Librarian lb)
+        {
+            repo.AddLibrarian(lb);
+            return Ok("Sucessfully Added Librarain");
+        }
     }
 }
