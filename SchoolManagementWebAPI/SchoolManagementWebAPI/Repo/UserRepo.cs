@@ -34,5 +34,10 @@ namespace SchoolManagementWebAPI.Repo
 
         public void AddLibrarian(Librarian lb);
 
+        public List<TeacherLeave> FetchAllTeacherLeaveRequest();
+
+        public void ApproveTeacherLeave(int id);
+        public void RejectTeacherLeave(int id);
+
     }
 }

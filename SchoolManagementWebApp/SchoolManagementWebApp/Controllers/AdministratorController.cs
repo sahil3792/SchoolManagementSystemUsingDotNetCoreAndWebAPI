@@ -266,5 +266,58 @@ namespace SchoolManagementWebApp.Controllers
             }
         }
 
+        public IActionResult ViewLeaveRequest()
+        {
+            List<TeacherLeave> list = new List<TeacherLeave>(); 
+            string url = "https://localhost:7238/api/User/FetchAllTeacherRequest";
+            HttpResponseMessage message = client.GetAsync(url).Result;
+            if (message.IsSuccessStatusCode)
+            {
+                var jsondata = message.Content.ReadAsStringAsync().Result;
+                list = JsonConvert.DeserializeObject<List<TeacherLeave>>(jsondata);
+                return View(list);
+            }
+            else
+            {
+                TempData["Msg"] = "Something Went Wrong Please try Again Later";
+                return View();
+            }
+        }
+
+        public IActionResult ApprovetheRequest(int id)
+        {
+            
+            string url = $"https://localhost:7238/api/User/ApprovetheLeaveRequest/{id}";
+            
+            HttpResponseMessage message = client.PutAsync(url, null).Result;
+            if (message.IsSuccessStatusCode)
+            {
+                TempData["Msg"] = "Successfully Approved request";
+                return RedirectToAction("ViewLeaveRequest");
+            }
+            else
+            {
+                return View();
+            }
+
+        }
+        public IActionResult RejecttheRequest(int id)
+        {
+
+            string url = $"https://localhost:7238/api/User/RejecttheLeaveRequest/{id}";
+
+            HttpResponseMessage message = client.PutAsync(url, null).Result;
+            if (message.IsSuccessStatusCode)
+            {
+                TempData["Msg"] = "Successfully Rejected request";
+                return RedirectToAction("ViewLeaveRequest");
+            }
+            else
+            {
+                return View();
+            }
+
+        }
+
     }
 }

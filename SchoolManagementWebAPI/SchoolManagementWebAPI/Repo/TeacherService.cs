@@ -28,5 +28,16 @@ namespace SchoolManagementWebAPI.Repo
         {
             db.Database.ExecuteSqlRaw($"exec AddTeacherLeave '{tl.TeacherId}','{tl.Leavetype}','{tl.StartDate.ToString("yyyy-MM-dd")}','{tl.EndDate.ToString("yyyy-MM-dd")}','{tl.LeaveReason}','{tl.Status}'");
         }
+
+        public void AddStudentAttendance(string[] attendancelist)
+        {
+            DateOnly Currentdate  = DateOnly.FromDateTime(DateTime.Now);
+            int present = 1;
+            foreach(var student in attendancelist)
+            {
+                db.Database.ExecuteSqlRaw($"exec AddStudentAttendance '{student}','{Currentdate.ToString("yyyy-MM-dd")}','{present}' ");
+            }
+           
+        }
     }
 }

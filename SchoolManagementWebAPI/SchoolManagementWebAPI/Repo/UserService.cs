@@ -107,5 +107,21 @@ namespace SchoolManagementWebAPI.Repo
             db.Database.ExecuteSqlRaw($"exec insertUser '{lb.LibrarianId}','{lb.password}','{urole}'");
         }
 
+        public List<TeacherLeave> FetchAllTeacherLeaveRequest()
+        {
+            var data = db.TeachersLeaves.FromSqlRaw("exec FetchAllTeacherLeaveRequest").ToList();
+            return data;
+        }
+
+        public void ApproveTeacherLeave(int id)
+        {
+            
+            db.Database.ExecuteSqlRaw($"exec ApproveTeacherLeave '{id}'");
+        }
+        public void RejectTeacherLeave(int id)
+        {
+
+            db.Database.ExecuteSqlRaw($"exec RejectTeacherLeave '{id}'");
+        }
     }
 }

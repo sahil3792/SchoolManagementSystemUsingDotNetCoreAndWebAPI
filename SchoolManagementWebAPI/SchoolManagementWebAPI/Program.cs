@@ -15,6 +15,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(
 builder.Services.AddScoped<UserRepo, UserService>();
 builder.Services.AddScoped<StudentRepo, StudentService>();
 builder.Services.AddScoped<TeacherRepo, TeacherService>();
+builder.Services.AddScoped<LibrarianRepo, LibrarianService>();
 
 var app = builder.Build();
 

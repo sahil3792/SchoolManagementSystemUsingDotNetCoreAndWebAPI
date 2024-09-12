@@ -10,5 +10,7 @@ namespace SchoolManagementWebAPI.Repo
         public List<TeacherLeave> FetchAllTeacherLeavesBasedOnTeacherId(string teacherid);
 
         public void AddTeacherLeave(TeacherLeave tl);
+
+        public void AddStudentAttendance(string[] attendancelist);
     }
 }

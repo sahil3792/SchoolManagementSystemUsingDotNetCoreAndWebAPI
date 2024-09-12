@@ -136,5 +136,30 @@ namespace SchoolManagementWebAPI.Controllers
             repo.AddLibrarian(lb);
             return Ok("Sucessfully Added Librarain");
         }
+
+        [Route("FetchAllTeacherRequest")]
+        [HttpGet]
+        public IActionResult FetchAllTeacherRequest()
+        {
+            var data = repo.FetchAllTeacherLeaveRequest();
+            return Ok(data);
+        }
+
+        [Route("ApprovetheLeaveRequest/{id}")]
+        [HttpPut]
+        public IActionResult ApprovetheLeaveRequest(int id)
+        {
+            repo.ApproveTeacherLeave(id);
+            return Ok();
+        }
+        [Route("RejecttheLeaveRequest/{id}")]
+        [HttpPut]
+        public IActionResult RejecttheLeaveRequest(int id)
+        {
+            repo.RejectTeacherLeave(id);
+            return Ok();
+        }
+
+
     }
 }

@@ -94,5 +94,25 @@ namespace SchoolManagementWebApp.Controllers
             }
             
         }
+
+        [HttpPost]
+        public IActionResult MarkStudentAttendance(string[] AttendanceList)
+        {
+            string url = $"https://localhost:7238/api/Teacher/AddStudentAttendance";
+            var jsondata = JsonConvert.SerializeObject(AttendanceList);
+            StringContent content = new StringContent (jsondata,Encoding.UTF8,"application/json");
+            HttpResponseMessage response = client.PostAsync (url, content).Result;
+            if(response.IsSuccessStatusCode)
+            {
+                TempData["Msg"] = "Attendance Added Successfully";
+                return RedirectToAction("AddAttendance");
+            }
+            else
+            {
+                TempData["Msg"] = "Couldnt Add Attendance Please try again";
+                return RedirectToAction("AddAttendance");
+            }
+
+        }
     }
 }

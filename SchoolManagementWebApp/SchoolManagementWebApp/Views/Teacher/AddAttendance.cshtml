@@ -6,28 +6,35 @@
 <div class="container-fluid">
     <div class="card">
         <div class="card-body">
-<table class="table ">
-                <thead class="thead-dark">
-        <tr>
-            <th scope="col">Mark Attendance</th>
-            <th scope="col">Full Name</th>
-           
-        </tr>
-    </thead>
-    <tbody>
-        @foreach(var item in Model)
-        {
-            <tr>
-                <th scope="row"></th>
-                <td>@item.FirstName @item.MiddleName @item.LastName</td>
-                
-               
-            </tr>
-        }
-        
-        
-    </tbody>
-</table>
+            <form asp-action="MarkStudentAttendance" method="post">
+                <table class="table ">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">Mark Attendance</th>
+                            <th scope="col">Full Name</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <th scope="row"><input type="checkbox" name="AttendanceList" value="@item.StudentId" /></th>
+                                <td>@item.FirstName @item.MiddleName @item.LastName</td>
+
+
+                            </tr>
+                        }
+
+
+
+
+                    </tbody>
+                </table>
+                <input type="submit" value="AddAttendance" class="btn btn-info m-1" />
+            </form>
+
 </div>
 </div>
 </div>

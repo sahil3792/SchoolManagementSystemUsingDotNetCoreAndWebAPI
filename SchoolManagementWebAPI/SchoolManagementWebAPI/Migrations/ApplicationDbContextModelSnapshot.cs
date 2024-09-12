@@ -288,6 +288,29 @@ namespace SchoolManagementWebAPI.Migrations
                     b.ToTable("Students");
                 });
 
+            modelBuilder.Entity("SchoolManagementWebAPI.Models.StudentAttendance", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<bool>("Attendance")
+                        .HasColumnType("bit");
+
+                    b.Property<DateOnly>("AttendanceDate")
+                        .HasColumnType("date");
+
+                    b.Property<string>("StudentId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("StudentAttendances");
+                });
+
             modelBuilder.Entity("SchoolManagementWebAPI.Models.Subject", b =>
                 {
                     b.Property<int>("SubjectId")

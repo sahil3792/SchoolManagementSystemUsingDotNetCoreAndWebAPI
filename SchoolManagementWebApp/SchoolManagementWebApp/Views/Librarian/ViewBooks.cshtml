@@ -1,0 +1,36 @@
+﻿@model List<Book>
+<partial name="Notification"></partial>
+
+<div class="container-fluid">
+    <div class="card">
+        <div class="card-body">
+            <a asp-controller="Librarian" asp-action="AddBooks"><input value="Add Book" type="button" class="btn btn-light m-1" /></a>
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">Title</th>
+            <th scope="col">Author Name</th>
+            <th scope="col">ISBN </th>
+            <th scope="col">Publish Date</th>
+            <th scope="col">Number of Copies</th>
+        </tr>
+    </thead>
+    <tbody>
+                    @foreach(var item in Model)
+                    {
+                        <tr>
+
+                            <td>@item.Title</td>
+                            <td>@item.AuthorName</td>
+                            <td>@item.ISBN</td>
+                            <td>@item.PublishedDate</td>
+                            <td>@item.NumberofCopies</td>
+                        </tr>
+                    }
+                    
+        
+    </tbody>
+</table>
+</div>
+</div>
+</div>

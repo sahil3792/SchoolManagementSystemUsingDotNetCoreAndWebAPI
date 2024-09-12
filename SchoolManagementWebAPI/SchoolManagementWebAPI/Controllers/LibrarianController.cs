@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using SchoolManagementWebAPI.Models;
+using SchoolManagementWebAPI.Repo;
 
 namespace SchoolManagementWebAPI.Controllers
 {
@@ -6,14 +8,37 @@ namespace SchoolManagementWebAPI.Controllers
     [ApiController]
     public class LibrarianController : ControllerBase
     {
+        private readonly LibrarianRepo repo;
         
-        public LibrarianController()
+        public LibrarianController(LibrarianRepo repo)
         {
+            this.repo = repo;
+        }
 
-        }
-        public IActionResult Index()
+        [Route("GetAllBooks")]
+        [HttpGet]
+        public IActionResult GetAllBooks()
         {
-            return Ok();
+            var data = repo.GetAllBooks();
+            if (data == null)
+            {
+                return null;
+            }
+            else
+            {
+                return Ok(data);
+            }
+            
         }
+
+        [Route("AddBooks")]
+        [HttpPost]
+        public IActionResult AddBooks(Book b)
+        {
+            repo.AddBook(b);
+            return Ok("successfully added book");
+        }
+
+
     }
 }

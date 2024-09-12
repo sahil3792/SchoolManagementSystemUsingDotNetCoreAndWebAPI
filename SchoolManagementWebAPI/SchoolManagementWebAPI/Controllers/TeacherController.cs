@@ -36,5 +36,13 @@ namespace SchoolManagementWebAPI.Controllers
             repo.AddTeacherLeave(tl);
             return Ok("Successfully added leave");
         }
+
+        [Route("AddStudentAttendance")]
+        [HttpPost]
+        public IActionResult AddStudentAttendance(string[] attendancelist)
+        {
+            repo.AddStudentAttendance(attendancelist);
+            return Ok();
+        }
     }
 }

@@ -1,0 +1,47 @@
+﻿@model List<TeacherLeave>
+
+
+<partial name="Notification"></partial>
+
+<div class="container-fluid">
+    <div class="card">
+        <div class="card-body">
+            <a asp-controller="Librarian" asp-action="AddBooks"><input value="Add Book" type="button" class="btn btn-light m-1" /></a>
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">Teacher Name</th>
+                        <th scope="col">Leave Type</th>
+                        <th scope="col">Start Date</th>
+                        <th scope="col">End Date</th>
+                        <th scope="col">Leave Reason </th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Action</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+
+                            <td>@item.TeacherId</td>
+                            <td>@item.Leavetype</td>
+                            <td>@item.StartDate</td>
+                            <td>@item.EndDate</td>
+                            <td>@item.LeaveReason</td>
+                            <td>@item.Status</td>
+                            <td>
+                                <a asp-controller="Administrator" asp-action="ApprovetheRequest" asp-route-id="@item.Id"><input type="button" value="Approve" class="btn btn-sm btn-success m-1" /></a>||
+                                <a asp-controller="Administrator" asp-action="RejecttheRequest" asp-route-id="@item.Id"><input type="button" value="Reject" class="btn btn-sm btn-danger m-1" /></a>
+                            </td>
+
+                        </tr>
+                    }
+
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
