@@ -114,5 +114,27 @@ namespace SchoolManagementWebApp.Controllers
             }
 
         }
+
+        public IActionResult ViewStudents()
+        {
+            List<Student> students = new List<Student>();
+            var teacherid = HttpContext.Session.GetString("Teacher");
+            string url = $"https://localhost:7238/api/Teacher/FetchStudentByClassID/{teacherid}";
+            HttpResponseMessage response = client.GetAsync(url).Result;
+            if (response.IsSuccessStatusCode)
+            {
+                var jsondata = response.Content.ReadAsStringAsync().Result;
+                students = JsonConvert.DeserializeObject<List<Student>>(jsondata);
+                return View(students);
+
+            }
+            else
+            {
+                TempData["Msg"] = "Couldnt fetch student list Please write a compliant if the problem continues";
+                return View();
+            }
+
+            
+        }
     }
 }

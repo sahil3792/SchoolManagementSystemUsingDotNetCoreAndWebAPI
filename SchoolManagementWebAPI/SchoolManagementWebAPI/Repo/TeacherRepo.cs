@@ -12,5 +12,6 @@ namespace SchoolManagementWebAPI.Repo
         public void AddTeacherLeave(TeacherLeave tl);
 
         public void AddStudentAttendance(string[] attendancelist);
+        
     }
 }

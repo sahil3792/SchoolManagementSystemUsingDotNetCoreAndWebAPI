@@ -5,6 +5,8 @@
     GetClass();
 });
 
+
+
 function GetSubjects() {
     $.ajax({
         url: '/Administrator/FetchSubjects', // Call the new action for data

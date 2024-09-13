@@ -1,18 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystem\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebApp\\",
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\Sahil Shaikh\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|c:\\users\\user\\documents\\projects\\schoolmanagementsystem\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapp\\schoolmanagementwebapp\\controllers\\teachercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|c:\\users\\admin\\desktop\\sahil shaikh\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapp\\schoolmanagementwebapp\\views\\teacher\\viewstudents.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|solutionrelative:schoolmanagementwebapp\\views\\teacher\\viewstudents.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|c:\\users\\admin\\desktop\\sahil shaikh\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapp\\schoolmanagementwebapp\\wwwroot\\ajax\\doc.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|solutionrelative:schoolmanagementwebapp\\wwwroot\\ajax\\doc.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|c:\\users\\admin\\desktop\\sahil shaikh\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapp\\schoolmanagementwebapp\\views\\teacher\\addattendance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|solutionrelative:schoolmanagementwebapp\\views\\teacher\\addattendance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|c:\\users\\admin\\desktop\\sahil shaikh\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapp\\schoolmanagementwebapp\\controllers\\teachercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|solutionrelative:schoolmanagementwebapp\\controllers\\teachercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|c:\\users\\user\\documents\\projects\\schoolmanagementsystem\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapp\\schoolmanagementwebapp\\models\\studentattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|solutionrelative:schoolmanagementwebapp\\models\\studentattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|c:\\users\\admin\\desktop\\sahil shaikh\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapp\\schoolmanagementwebapp\\views\\shared\\teacherlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|solutionrelative:schoolmanagementwebapp\\views\\shared\\teacherlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|c:\\users\\user\\documents\\projects\\schoolmanagementsystem\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapp\\schoolmanagementwebapp\\views\\teacher\\addattendance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|solutionrelative:schoolmanagementwebapp\\views\\teacher\\addattendance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|c:\\users\\admin\\desktop\\sahil shaikh\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapp\\schoolmanagementwebapp\\views\\shared\\administratorlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|solutionrelative:schoolmanagementwebapp\\views\\shared\\administratorlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|c:\\users\\admin\\desktop\\sahil shaikh\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapp\\schoolmanagementwebapp\\controllers\\administratorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|solutionrelative:schoolmanagementwebapp\\controllers\\administratorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|c:\\users\\admin\\desktop\\sahil shaikh\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapp\\schoolmanagementwebapp\\models\\studentattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|solutionrelative:schoolmanagementwebapp\\models\\studentattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -53,27 +73,102 @@
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f53-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "StudentAttendance.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystem\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebApp\\SchoolManagementWebApp\\Models\\StudentAttendance.cs",
-              "RelativeDocumentMoniker": "SchoolManagementWebApp\\Models\\StudentAttendance.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystem\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebApp\\SchoolManagementWebApp\\Models\\StudentAttendance.cs",
-              "RelativeToolTip": "SchoolManagementWebApp\\Models\\StudentAttendance.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T19:38:04.522Z",
+              "Title": "doc.js",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Sahil Shaikh\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebApp\\SchoolManagementWebApp\\wwwroot\\Ajax\\doc.js",
+              "RelativeDocumentMoniker": "SchoolManagementWebApp\\wwwroot\\Ajax\\doc.js",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Sahil Shaikh\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebApp\\SchoolManagementWebApp\\wwwroot\\Ajax\\doc.js",
+              "RelativeToolTip": "SchoolManagementWebApp\\wwwroot\\Ajax\\doc.js",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAwwAUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-13T10:28:14.48Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ViewStudents.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Sahil Shaikh\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebApp\\SchoolManagementWebApp\\Views\\Teacher\\ViewStudents.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagementWebApp\\Views\\Teacher\\ViewStudents.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Sahil Shaikh\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebApp\\SchoolManagementWebApp\\Views\\Teacher\\ViewStudents.cshtml",
+              "RelativeToolTip": "SchoolManagementWebApp\\Views\\Teacher\\ViewStudents.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAwwFQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-13T08:12:50.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdministratorLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Sahil Shaikh\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebApp\\SchoolManagementWebApp\\Views\\Shared\\AdministratorLayout.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagementWebApp\\Views\\Shared\\AdministratorLayout.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Sahil Shaikh\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebApp\\SchoolManagementWebApp\\Views\\Shared\\AdministratorLayout.cshtml",
+              "RelativeToolTip": "SchoolManagementWebApp\\Views\\Shared\\AdministratorLayout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-13T08:09:38.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdministratorController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Sahil Shaikh\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebApp\\SchoolManagementWebApp\\Controllers\\AdministratorController.cs",
+              "RelativeDocumentMoniker": "SchoolManagementWebApp\\Controllers\\AdministratorController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Sahil Shaikh\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebApp\\SchoolManagementWebApp\\Controllers\\AdministratorController.cs",
+              "RelativeToolTip": "SchoolManagementWebApp\\Controllers\\AdministratorController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T08:07:33.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StudentAttendance.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Sahil Shaikh\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebApp\\SchoolManagementWebApp\\Models\\StudentAttendance.cs",
+              "RelativeDocumentMoniker": "SchoolManagementWebApp\\Models\\StudentAttendance.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Sahil Shaikh\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebApp\\SchoolManagementWebApp\\Models\\StudentAttendance.cs",
+              "RelativeToolTip": "SchoolManagementWebApp\\Models\\StudentAttendance.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T19:38:04.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "TeacherController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystem\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebApp\\SchoolManagementWebApp\\Controllers\\TeacherController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Sahil Shaikh\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebApp\\SchoolManagementWebApp\\Controllers\\TeacherController.cs",
               "RelativeDocumentMoniker": "SchoolManagementWebApp\\Controllers\\TeacherController.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystem\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebApp\\SchoolManagementWebApp\\Controllers\\TeacherController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Sahil Shaikh\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebApp\\SchoolManagementWebApp\\Controllers\\TeacherController.cs",
               "RelativeToolTip": "SchoolManagementWebApp\\Controllers\\TeacherController.cs",
-              "ViewState": "AQIAAGIAAAAAAAAAAAAAAHAAAAA2AAAA",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAswHUAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-12T17:58:31.95Z",
               "EditorCaption": ""
@@ -82,13 +177,26 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "AddAttendance.cshtml",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystem\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebApp\\SchoolManagementWebApp\\Views\\Teacher\\AddAttendance.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Sahil Shaikh\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebApp\\SchoolManagementWebApp\\Views\\Teacher\\AddAttendance.cshtml",
               "RelativeDocumentMoniker": "SchoolManagementWebApp\\Views\\Teacher\\AddAttendance.cshtml",
-              "ToolTip": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystem\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebApp\\SchoolManagementWebApp\\Views\\Teacher\\AddAttendance.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Sahil Shaikh\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebApp\\SchoolManagementWebApp\\Views\\Teacher\\AddAttendance.cshtml",
               "RelativeToolTip": "SchoolManagementWebApp\\Views\\Teacher\\AddAttendance.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAABxAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAACcAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-12T19:12:38.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TeacherLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Sahil Shaikh\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebApp\\SchoolManagementWebApp\\Views\\Shared\\TeacherLayout.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagementWebApp\\Views\\Shared\\TeacherLayout.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Sahil Shaikh\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebApp\\SchoolManagementWebApp\\Views\\Shared\\TeacherLayout.cshtml",
+              "RelativeToolTip": "SchoolManagementWebApp\\Views\\Shared\\TeacherLayout.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAC0AAABlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-13T08:09:40.932Z",
               "EditorCaption": ""
             }
           ]
@@ -100,6 +208,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             }
           ]
         }
