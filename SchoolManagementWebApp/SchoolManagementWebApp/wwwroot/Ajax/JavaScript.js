@@ -3,6 +3,8 @@
     GetTeachers();
     GetGuardian();
     GetClass();
+    GetBooks();
+    GetUsers();
 });
 
 
@@ -90,5 +92,33 @@ function GetClass() {
             alert("Failed to load subjects: " + xhr.status + " - " + error);
         }
 
+    });
+}
+
+function GetBooks() {
+    $.ajax({
+        url: '/Librarian/GetBooks',
+        type: 'GET',
+        success: function (result) {
+            var options = '<option value="">Select Book</option>';
+            $.each(result, function (index, book) {
+                options += '<option value="' + book.id + '">' + book.title + '</option>';
+            });
+            $('#FetchBooks').html(options);
+        }
+    });
+}
+
+function GetUsers() {
+    $.ajax({
+        url: '/Librarian/GetUsers',
+        type: 'GET',
+        success: function (result) {
+            var options = '<option value="">Select User</option>';
+            $.each(result, function (index, user) {
+                options += '<option value="' + user.Id + '">' + user.userId + '</option>';
+            });
+            $('#FetchUser').html(options);
+        }
     });
 }

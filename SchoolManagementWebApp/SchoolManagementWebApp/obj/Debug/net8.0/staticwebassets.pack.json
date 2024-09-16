@@ -9,6 +9,14 @@
       "PackagePath": "staticwebassets\\Ajax\\JavaScript.js"
     },
     {
+      "Id": "C:\\Users\\Admin\\Desktop\\Sahil Shaikh\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebApp\\SchoolManagementWebApp\\wwwroot\\Ajax\\doc.js",
+      "PackagePath": "staticwebassets\\Ajax\\doc.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\Sahil Shaikh\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebApp\\SchoolManagementWebApp\\wwwroot\\Ajax\\lib.js",
+      "PackagePath": "staticwebassets\\Ajax\\lib.js"
+    },
+    {
       "Id": "C:\\Users\\Admin\\Desktop\\Sahil Shaikh\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebApp\\SchoolManagementWebApp\\wwwroot\\DashBoardLibs\\apexcharts\\LICENSE",
       "PackagePath": "staticwebassets\\DashBoardLibs\\apexcharts"
     },

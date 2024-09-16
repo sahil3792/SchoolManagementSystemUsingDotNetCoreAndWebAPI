@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Admin\Desktop\Sahil Shaikh\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Admin/Desktop/Sahil Shaikh/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Models/IssuedBook.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kZWxzXElzc3VlZEJvb2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Admin/Desktop/Sahil Shaikh/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Administrator/AddClass.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxBZGRDbGFzcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -70,12 +74,36 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyaWFuXEFkZEJvb2tzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Admin/Desktop/Sahil Shaikh/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Librarian/IssueBookAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyaWFuXElzc3VlQm9va0FkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Sahil Shaikh/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Librarian/LateFee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyaWFuXExhdGVGZWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Admin/Desktop/Sahil Shaikh/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Librarian/LibrarianDashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyaWFuXExpYnJhcmlhbkRhc2hib2FyZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Admin/Desktop/Sahil Shaikh/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Librarian/ReserveBook.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyaWFuXFJlc2VydmVCb29rLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Sahil Shaikh/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Librarian/ReturnBook.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyaWFuXFJldHVybkJvb2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Sahil Shaikh/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Librarian/UpdateBook.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyaWFuXFVwZGF0ZUJvb2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Admin/Desktop/Sahil Shaikh/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Librarian/ViewBooks.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyaWFuXFZpZXdCb29rcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/Sahil Shaikh/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Librarian/ViewBooks1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyaWFuXFZpZXdCb29rczEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Admin/Desktop/Sahil Shaikh/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Shared/AdministratorLayout.cshtml]

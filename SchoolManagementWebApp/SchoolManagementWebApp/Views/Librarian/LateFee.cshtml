@@ -1,0 +1,37 @@
+﻿@model IssuedBook
+
+<partial name="Notification"></partial>
+<div class="container-fluid">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title fw-semibold mb-4">Forms</h5>
+            <div class="card">
+                <div class="card-body">
+                    <form method="post" asp-action="ReturnBook">
+                        <div class="mb-3">
+                            <label class="form-label">Issued ID</label>
+                            <input type="text" class="form-control" asp-for="IssuedId">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Return Date</label>
+                            <input type="date" class="form-control" asp-for="ReturnDate">
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Calculate Late Fee</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="py-6 px-6 text-center">
+    </div>
+</div>
+
+@if (ViewBag.LateFee != null)
+{
+    <div class="alert alert-info mt-3">
+        <strong>Late Fee:</strong> $@ViewBag.LateFee
+    </div>
+}
+

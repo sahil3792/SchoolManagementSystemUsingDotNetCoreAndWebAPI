@@ -201,6 +201,34 @@ namespace SchoolManagementWebAPI.Migrations
                     b.ToTable("librarians");
                 });
 
+            modelBuilder.Entity("SchoolManagementWebAPI.Models.LibraryCard", b =>
+                {
+                    b.Property<int>("LibraryCardId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("LibraryCardId"));
+
+                    b.Property<string>("CardNumber")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateOnly>("IssuedDate")
+                        .HasColumnType("date");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("LibraryCardId");
+
+                    b.ToTable("LibraryCards");
+                });
+
             modelBuilder.Entity("SchoolManagementWebAPI.Models.Reservation", b =>
                 {
                     b.Property<int>("ReservationId")

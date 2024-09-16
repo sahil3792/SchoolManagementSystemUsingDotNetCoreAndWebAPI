@@ -1,0 +1,54 @@
+﻿@model List<IssuedBook>
+<partial name="Notification"></partial>
+
+<div class="container-fluid">
+    <div class="card">
+        <div class="card-body">
+            <a asp-controller="Librarian" asp-action="IssueBookAdd"><input value="Issue Add" type="button" class="btn btn-light m-1" /></a>
+            <table class="table">
+                <thead class="thead-dark">
+
+                    <tr>
+                        <th scope="col">Issue ID</th>
+                        <th scope="col">Book ID</th>
+                        <th scope="col">User ID</th>
+                        <th scope="col">Issue Date</th>
+                        <th scope="col">Return Date</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Late Fee</th>
+                        <th scope="col">Action</th>
+                    </tr>
+
+                </thead>
+                <tbody>
+                    @if (Model != null && Model.Count > 0)
+                    {
+                        foreach (var book in Model)
+                        {
+                            <tr>
+                                <td>@book.IssuedId</td>
+                                <td>@book.Bookid</td>
+                                <td>@book.Userid</td>
+                                <td>@book.IssueDate</td>
+                                <td>@book.ReturnDate</td>
+                                <td>@book.Status</td>
+                                <td>@book.LateFee</td>
+                                <td>
+                                    <a asp-action="ReturnBook" asp-route-id="@book.IssuedId" class="btn btn-primary btn-sm">Return</a>
+                                    <a asp-action="LateFee" asp-route-id="@book.IssuedId" class="btn btn-warning btn-sm">Check Late Fee</a>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="8" class="text-center">No issued books found.</td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

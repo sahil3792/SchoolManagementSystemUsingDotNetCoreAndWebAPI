@@ -1,0 +1,43 @@
+﻿@model Reservation
+<partial name="Notification"></partial>
+
+@{
+    ViewData["Title"] = "Reserve a Book";
+}
+
+<div class="container-fluid">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title fw-semibold mb-4"></h5>
+            <div class="card">
+                <div class="card-body">
+                    <form method="post" >
+
+                        <div class="mb-3">
+                            <label for="books">Select Book</label>
+                            <select id="FetchBooks" name="bookId" class="form-control"></select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="users">Select User</label>
+                            <select id="FetchUser" name="userId" class="form-control"></select>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Reserve</button>
+
+
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="py-6 px-6 text-center">
+    </div>
+</div>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/ajax/lib.js"></script>
+
