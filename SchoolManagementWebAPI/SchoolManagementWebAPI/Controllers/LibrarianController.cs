@@ -52,14 +52,6 @@ namespace SchoolManagementWebAPI.Controllers
             return Ok(book);
         }
 
-        //[Route("AddBooks")]
-        //[HttpPost]
-        //public IActionResult AddBook(Book b)
-        //{
-        //    repo.AddBook(b);
-
-        //    return Ok("Book added Successfully");
-        //}
 
 
 
@@ -191,16 +183,16 @@ namespace SchoolManagementWebAPI.Controllers
         }
 
 
-        [Route("ReserveBook1")]
+        [Route("ReserveBook")]
         [HttpPost]
         public IActionResult ReserveBook(Reservation rev)
         {
-            //var result = repo.ReserveBook(bookId, userId);
-            //if (result)
-            //{
-            //    return Ok(new { Message = "Book Reserved Successfully" });
-            //}
-            return Ok();
+            var result = repo.ReserveBook(rev.BookId, rev.UserId.ToString());
+            if (result)
+            {
+                return Ok(new { Message = "Book Reserved Successfully" });
+            }
+            return BadRequest(new { Message = "Failed to Reserve Book" });
         }
 
 
@@ -226,31 +218,36 @@ namespace SchoolManagementWebAPI.Controllers
             return Ok(book);
         }
 
-        //[Route("IssueLibraryCard")]
-        //[HttpPost]
-        //public IActionResult IssueLibraryCardAdd(Labirarycard libraryCard)
-        //{
-        //    if (libraryCard == null)
-        //    {
-        //        return BadRequest("Invalid data.");
-        //    }
-
-        //    repo.IssueLibraryCard(libraryCard);
-        //    return Ok("Issue card added successfully");
-        //}
-
-
-
-
-
-
-        [Route("UpdateLibraryCard/{id}")]
-        [HttpPut]
-        public IActionResult UpdateLibraryCard(LibraryCard libraryCard)
+        [Route("IssueLibraryCard")]
+        [HttpPost]
+        public IActionResult AddIssueLibraryCard(LibraryCard libraryCard)
         {
-            //repo.UpdateBook(libraryCard);
-            return Ok("Book updated successfully");
+            if (ModelState.IsValid)
+            {
+                repo.IssueLibraryCard(libraryCard);
+                return Ok("Issue card added successfully");
+
+            }
+
+            return BadRequest("Invalid data.");
         }
+
+
+
+
+
+
+        [HttpPut("UpdateLibraryCard/{id}")]
+        public IActionResult UpdateLibraryCard(int id, LibraryCard libraryCard)
+        {
+            if (id != libraryCard.LibraryCardId)
+            {
+                return BadRequest("Library card ID mismatch");
+            }
+            repo.UpdateLibraryCard(libraryCard);
+            return Ok("Library card updated successfully");
+        }
+
 
     }
 }

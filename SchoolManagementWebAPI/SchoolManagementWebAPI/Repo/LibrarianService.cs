@@ -28,7 +28,7 @@ namespace SchoolManagementWebAPI.Repo
 
         public void AddBook(Book book)
         {
-            db.Database.ExecuteSqlRaw($"exec AddBooks1 '{book.Title}','{book.AuthorName}','{book.ISBN}','{book.PublishedDate.ToString("yyyy-MM-dd")}',{book.NumberofCopies}");
+            db.Database.ExecuteSqlRaw($"exec AddBooks '{book.Title}','{book.AuthorName}','{book.ISBN}','{book.PublishedDate.ToString("yyyy-MM-dd")}',{book.NumberofCopies}");
 
 
         }
@@ -124,8 +124,7 @@ namespace SchoolManagementWebAPI.Repo
                 };
 
                 db.Reservations.Add(newReservation);
-                book.NumberofCopies
-                    --;
+                book.NumberofCopies--;
                 db.SaveChanges();
 
                 return true;

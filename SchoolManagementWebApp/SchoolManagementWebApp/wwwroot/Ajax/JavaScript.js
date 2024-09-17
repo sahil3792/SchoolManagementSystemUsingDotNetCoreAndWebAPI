@@ -116,7 +116,7 @@ function GetUsers() {
         success: function (result) {
             var options = '<option value="">Select User</option>';
             $.each(result, function (index, user) {
-                options += '<option value="' + user.Id + '">' + user.userId + '</option>';
+                options += '<option value="' + user.id + '">' + user.userId + '</option>';
             });
             $('#FetchUser').html(options);
         }

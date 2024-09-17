@@ -19,7 +19,7 @@ function GetBooks() {
         success: function (result) {
             var options = '<option value="">Select Book</option>';
             $.each(result, function (index, book) {
-                options += '<option value="' + book.id + '">'  + book.title+ '</option>';
+                options += '<option value="' + book.id + '">' + book.title + '</option>';
             });
             $('#FetchBooks').html(options);
         }
@@ -45,10 +45,12 @@ function ReserveBook() {
     var userId = $("#FetchUser").val();
 
     $.ajax({
-        url: '/Librarian/ReserveBook?bookId=' + Id + '&userId=' + userId,
+        url: '/Librarian/ReserveBook1',  
         type: 'POST',
+        data: JSON.stringify({ bookId: bookId, userId: userId }), 
+        contentType: "application/json",
         success: function (response) {
-            alert("this is error");
+            alert("Book reserved successfully!");
         },
         error: function () {
             alert("Failed to reserve book");

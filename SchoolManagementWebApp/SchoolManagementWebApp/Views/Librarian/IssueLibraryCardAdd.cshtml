@@ -1,0 +1,39 @@
+﻿@model LibraryCard
+
+<h2>Issue New Library Card</h2>
+<partial name="Notification"></partial>
+<div class="container-fluid">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title fw-semibold mb-4">Forms</h5>
+            <div class="card">
+                <div class="card-body">
+                    <form method="post" asp-action="IssueLibraryCardAdd">
+                        <div class="mb-3">
+                            <label class="form-label"><b>Select User Id</b></label>
+                            <select id="FetchUser" asp-for="UserId"></select>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label"><b>Issue Date</b></label>
+                            <input type="date" class="form-control" asp-for="IssuedDate">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Card Number</label>
+                            <input type="text" class="form-control" asp-for="CardNumber" >
+                        </div>
+   
+                        
+                        <button type="submit" class="btn btn-primary">Issue Card</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="py-6 px-6 text-center">
+    </div>
+</div>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/ajax/javascript.js"></script>
