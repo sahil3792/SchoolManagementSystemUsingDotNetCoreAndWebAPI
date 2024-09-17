@@ -1,0 +1,637 @@
+[
+  {
+    "ContainingType": "SchoolManagementWebAPI.Controllers.LibrarianController",
+    "Method": "AddBooks",
+    "RelativePath": "api/Librarian/AddBooks",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "b",
+        "Type": "SchoolManagementWebAPI.Models.Book",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementWebAPI.Controllers.LibrarianController",
+    "Method": "DeleteBook",
+    "RelativePath": "api/Librarian/DeleteBook/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementWebAPI.Controllers.LibrarianController",
+    "Method": "GetAllBooks",
+    "RelativePath": "api/Librarian/GetAllBooks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementWebAPI.Controllers.LibrarianController",
+    "Method": "GetAllIssuedBooks",
+    "RelativePath": "api/Librarian/GetAllIssuedBooks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementWebAPI.Controllers.LibrarianController",
+    "Method": "GetAllLibraryCards",
+    "RelativePath": "api/Librarian/GetAllLibraryCards",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementWebAPI.Controllers.LibrarianController",
+    "Method": "GetBook",
+    "RelativePath": "api/Librarian/GetBookById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementWebAPI.Controllers.LibrarianController",
+    "Method": "GetBooks",
+    "RelativePath": "api/Librarian/GetBooks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementWebAPI.Controllers.LibrarianController",
+    "Method": "GetIssuedBookById",
+    "RelativePath": "api/Librarian/GetIssuedBookById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementWebAPI.Controllers.LibrarianController",
+    "Method": "GetLibrary",
+    "RelativePath": "api/Librarian/GetLibraryCardById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementWebAPI.Controllers.LibrarianController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/Librarian/GetUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementWebAPI.Controllers.LibrarianController",
+    "Method": "GetUserById",
+    "RelativePath": "api/Librarian/GetUserById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementWebAPI.Controllers.LibrarianController",
+    "Method": "GetUsers",
+    "RelativePath": "api/Librarian/GetUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementWebAPI.Controllers.LibrarianController",
+    "Method": "IssueBook",
+    "RelativePath": "api/Librarian/IssueBookAdd",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "issuedBook",
+        "Type": "SchoolManagementWebAPI.Models.IssuedBook",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementWebAPI.Controllers.LibrarianController",
+    "Method": "AddIssueLibraryCard",
+    "RelativePath": "api/Librarian/IssueLibraryCard",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "libraryCard",
+        "Type": "SchoolManagementWebAPI.Models.LibraryCard",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementWebAPI.Controllers.LibrarianController",
+    "Method": "CalculateLateFee",
+    "RelativePath": "api/Librarian/late/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "returnDate",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Decimal",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SchoolManagementWebAPI.Controllers.LibrarianController",
+    "Method": "ReserveBook",
+    "RelativePath": "api/Librarian/ReserveBook",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rev",
+        "Type": "SchoolManagementWebAPI.Models.Reservation",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementWebAPI.Controllers.LibrarianController",
+    "Method": "ReturnBook",
+    "RelativePath": "api/Librarian/Return/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "returnDate",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementWebAPI.Controllers.LibrarianController",
+    "Method": "UpdateBook",
+    "RelativePath": "api/Librarian/UpdateBook/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "b",
+        "Type": "SchoolManagementWebAPI.Models.Book",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementWebAPI.Controllers.LibrarianController",
+    "Method": "UpdateLibraryCard",
+    "RelativePath": "api/Librarian/UpdateLibraryCard/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "libraryCard",
+        "Type": "SchoolManagementWebAPI.Models.LibraryCard",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementWebAPI.Controllers.StudentController",
+    "Method": "FetchTimetableBasedOnStudentId",
+    "RelativePath": "api/Student/FetchTimetableBasedOnStudentId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementWebAPI.Controllers.TeacherController",
+    "Method": "AddStudentAttendance",
+    "RelativePath": "api/Teacher/AddStudentAttendance",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "attendancelist",
+        "Type": "System.String[]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementWebAPI.Controllers.TeacherController",
+    "Method": "AddTeacherLeave",
+    "RelativePath": "api/Teacher/AddTeacherLeave",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tl",
+        "Type": "SchoolManagementWebAPI.Models.TeacherLeave",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementWebAPI.Controllers.TeacherController",
+    "Method": "FetchStudentsByClassId",
+    "RelativePath": "api/Teacher/FetchStudentByClassID/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementWebAPI.Controllers.TeacherController",
+    "Method": "FetchTeachersLeavesBasedOnTeacherId",
+    "RelativePath": "api/Teacher/FetchTeachersLeavesBasedOnTeacherId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementWebAPI.Controllers.UserController",
+    "Method": "AddAdministrator",
+    "RelativePath": "api/User/AddAdministrator",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "administrator",
+        "Type": "SchoolManagementWebAPI.Models.Administrator",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementWebAPI.Controllers.UserController",
+    "Method": "AddClass",
+    "RelativePath": "api/User/AddClass",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "c",
+        "Type": "SchoolManagementWebAPI.Models.Class",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementWebAPI.Controllers.UserController",
+    "Method": "AddGuardian",
+    "RelativePath": "api/User/AddGuardian",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "g",
+        "Type": "SchoolManagementWebAPI.Models.Guardian",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementWebAPI.Controllers.UserController",
+    "Method": "AddLibrarian",
+    "RelativePath": "api/User/AddLibrarian",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lb",
+        "Type": "SchoolManagementWebAPI.Models.Librarian",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementWebAPI.Controllers.UserController",
+    "Method": "AddStudent",
+    "RelativePath": "api/User/AddStudent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "s",
+        "Type": "SchoolManagementWebAPI.Models.Student",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementWebAPI.Controllers.UserController",
+    "Method": "AddSubjects",
+    "RelativePath": "api/User/AddSubject",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sub",
+        "Type": "SchoolManagementWebAPI.Models.Subject",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementWebAPI.Controllers.UserController",
+    "Method": "AddTeacher",
+    "RelativePath": "api/User/AddTeacher",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "teacher",
+        "Type": "SchoolManagementWebAPI.Models.Teacher",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementWebAPI.Controllers.UserController",
+    "Method": "AddTimetable",
+    "RelativePath": "api/User/AddTimetable",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tt",
+        "Type": "SchoolManagementWebAPI.Models.Timetable",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementWebAPI.Controllers.UserController",
+    "Method": "ApprovetheLeaveRequest",
+    "RelativePath": "api/User/ApprovetheLeaveRequest/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementWebAPI.Controllers.UserController",
+    "Method": "AuthUser",
+    "RelativePath": "api/User/AuthUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "u",
+        "Type": "SchoolManagementWebAPI.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementWebAPI.Controllers.UserController",
+    "Method": "FetchAllClasses",
+    "RelativePath": "api/User/FetchAllClasses",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementWebAPI.Controllers.UserController",
+    "Method": "FetchAllGuardian",
+    "RelativePath": "api/User/FetchAllGuardians",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementWebAPI.Controllers.UserController",
+    "Method": "FetchAllSubjects",
+    "RelativePath": "api/User/FetchAllSubjects",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementWebAPI.Controllers.UserController",
+    "Method": "FetchAllTeacherRequest",
+    "RelativePath": "api/User/FetchAllTeacherRequest",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementWebAPI.Controllers.UserController",
+    "Method": "GetUsers",
+    "RelativePath": "api/User/GetAllEmps",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementWebAPI.Controllers.UserController",
+    "Method": "GetAllTeacher",
+    "RelativePath": "api/User/GetAllTeachers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementWebAPI.Controllers.UserController",
+    "Method": "RejecttheLeaveRequest",
+    "RelativePath": "api/User/RejecttheLeaveRequest/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementWebAPI.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SchoolManagementWebAPI.WeatherForecast, SchoolManagementWebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

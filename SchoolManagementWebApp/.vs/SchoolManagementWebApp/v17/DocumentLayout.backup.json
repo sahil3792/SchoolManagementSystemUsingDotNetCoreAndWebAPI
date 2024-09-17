@@ -1,0 +1,279 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\JYOTI_SHUKLA\\SchoolManagementSystemProject\\SchoolManagementWebApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|d:\\jyoti_shukla\\schoolmanagementsystemproject\\schoolmanagementwebapp\\schoolmanagementwebapp\\controllers\\librariancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|solutionrelative:schoolmanagementwebapp\\controllers\\librariancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|d:\\jyoti_shukla\\schoolmanagementsystemproject\\schoolmanagementwebapp\\schoolmanagementwebapp\\views\\librarian\\reservebook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|solutionrelative:schoolmanagementwebapp\\views\\librarian\\reservebook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|d:\\jyoti_shukla\\schoolmanagementsystemproject\\schoolmanagementwebapp\\schoolmanagementwebapp\\views\\librarian\\issuelibrarycardadd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|solutionrelative:schoolmanagementwebapp\\views\\librarian\\issuelibrarycardadd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|d:\\jyoti_shukla\\schoolmanagementsystemproject\\schoolmanagementwebapp\\schoolmanagementwebapp\\views\\librarian\\viewbooks2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|solutionrelative:schoolmanagementwebapp\\views\\librarian\\viewbooks2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|d:\\jyoti_shukla\\schoolmanagementsystemproject\\schoolmanagementwebapp\\schoolmanagementwebapp\\models\\librarycard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|solutionrelative:schoolmanagementwebapp\\models\\librarycard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|d:\\jyoti_shukla\\schoolmanagementsystemproject\\schoolmanagementwebapp\\schoolmanagementwebapp\\views\\librarian\\addbooks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|solutionrelative:schoolmanagementwebapp\\views\\librarian\\addbooks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|d:\\jyoti_shukla\\schoolmanagementsystemproject\\schoolmanagementwebapp\\schoolmanagementwebapp\\views\\librarian\\viewbooks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|solutionrelative:schoolmanagementwebapp\\views\\librarian\\viewbooks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|d:\\jyoti_shukla\\schoolmanagementsystemproject\\schoolmanagementwebapp\\schoolmanagementwebapp\\views\\librarian\\viewbooks1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|solutionrelative:schoolmanagementwebapp\\views\\librarian\\viewbooks1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|d:\\jyoti_shukla\\schoolmanagementsystemproject\\schoolmanagementwebapp\\schoolmanagementwebapp\\wwwroot\\ajax\\javascript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|solutionrelative:schoolmanagementwebapp\\wwwroot\\ajax\\javascript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|d:\\jyoti_shukla\\schoolmanagementsystemproject\\schoolmanagementwebapp\\schoolmanagementwebapp\\views\\shared\\librarianlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|solutionrelative:schoolmanagementwebapp\\views\\shared\\librarianlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|d:\\jyoti_shukla\\schoolmanagementsystemproject\\schoolmanagementwebapp\\schoolmanagementwebapp\\views\\librarian\\librariandashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|solutionrelative:schoolmanagementwebapp\\views\\librarian\\librariandashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|d:\\jyoti_shukla\\schoolmanagementsystemproject\\schoolmanagementwebapp\\schoolmanagementwebapp\\views\\librarian\\returnbook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|solutionrelative:schoolmanagementwebapp\\views\\librarian\\returnbook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|d:\\jyoti_shukla\\schoolmanagementsystemproject\\schoolmanagementwebapp\\schoolmanagementwebapp\\wwwroot\\ajax\\lib.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{D9B0E0F9-11A0-4F83-B110-E9549E2AE6A4}|SchoolManagementWebApp\\SchoolManagementWebApp.csproj|solutionrelative:schoolmanagementwebapp\\wwwroot\\ajax\\lib.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ViewBooks1.cshtml",
+              "DocumentMoniker": "D:\\JYOTI_SHUKLA\\SchoolManagementSystemProject\\SchoolManagementWebApp\\SchoolManagementWebApp\\Views\\Librarian\\ViewBooks1.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagementWebApp\\Views\\Librarian\\ViewBooks1.cshtml",
+              "ToolTip": "D:\\JYOTI_SHUKLA\\SchoolManagementSystemProject\\SchoolManagementWebApp\\SchoolManagementWebApp\\Views\\Librarian\\ViewBooks1.cshtml",
+              "RelativeToolTip": "SchoolManagementWebApp\\Views\\Librarian\\ViewBooks1.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T11:08:30.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "JavaScript.js",
+              "DocumentMoniker": "D:\\JYOTI_SHUKLA\\SchoolManagementSystemProject\\SchoolManagementWebApp\\SchoolManagementWebApp\\wwwroot\\Ajax\\JavaScript.js",
+              "RelativeDocumentMoniker": "SchoolManagementWebApp\\wwwroot\\Ajax\\JavaScript.js",
+              "ToolTip": "D:\\JYOTI_SHUKLA\\SchoolManagementSystemProject\\SchoolManagementWebApp\\SchoolManagementWebApp\\wwwroot\\Ajax\\JavaScript.js",
+              "RelativeToolTip": "SchoolManagementWebApp\\wwwroot\\Ajax\\JavaScript.js",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAHgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-17T11:07:24.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LibrarianLayout.cshtml",
+              "DocumentMoniker": "D:\\JYOTI_SHUKLA\\SchoolManagementSystemProject\\SchoolManagementWebApp\\SchoolManagementWebApp\\Views\\Shared\\LibrarianLayout.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagementWebApp\\Views\\Shared\\LibrarianLayout.cshtml",
+              "ToolTip": "D:\\JYOTI_SHUKLA\\SchoolManagementSystemProject\\SchoolManagementWebApp\\SchoolManagementWebApp\\Views\\Shared\\LibrarianLayout.cshtml",
+              "RelativeToolTip": "SchoolManagementWebApp\\Views\\Shared\\LibrarianLayout.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAD0AAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T11:00:42.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IssueLibraryCardAdd.cshtml",
+              "DocumentMoniker": "D:\\JYOTI_SHUKLA\\SchoolManagementSystemProject\\SchoolManagementWebApp\\SchoolManagementWebApp\\Views\\Librarian\\IssueLibraryCardAdd.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagementWebApp\\Views\\Librarian\\IssueLibraryCardAdd.cshtml",
+              "ToolTip": "D:\\JYOTI_SHUKLA\\SchoolManagementSystemProject\\SchoolManagementWebApp\\SchoolManagementWebApp\\Views\\Librarian\\IssueLibraryCardAdd.cshtml",
+              "RelativeToolTip": "SchoolManagementWebApp\\Views\\Librarian\\IssueLibraryCardAdd.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T10:30:32.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LibrarianController.cs",
+              "DocumentMoniker": "D:\\JYOTI_SHUKLA\\SchoolManagementSystemProject\\SchoolManagementWebApp\\SchoolManagementWebApp\\Controllers\\LibrarianController.cs",
+              "RelativeDocumentMoniker": "SchoolManagementWebApp\\Controllers\\LibrarianController.cs",
+              "ToolTip": "D:\\JYOTI_SHUKLA\\SchoolManagementSystemProject\\SchoolManagementWebApp\\SchoolManagementWebApp\\Controllers\\LibrarianController.cs",
+              "RelativeToolTip": "SchoolManagementWebApp\\Controllers\\LibrarianController.cs",
+              "ViewState": "AgIAAAsBAAAAAAAAAAAqwBYBAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T08:28:00.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReserveBook.cshtml",
+              "DocumentMoniker": "D:\\JYOTI_SHUKLA\\SchoolManagementSystemProject\\SchoolManagementWebApp\\SchoolManagementWebApp\\Views\\Librarian\\ReserveBook.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagementWebApp\\Views\\Librarian\\ReserveBook.cshtml",
+              "ToolTip": "D:\\JYOTI_SHUKLA\\SchoolManagementSystemProject\\SchoolManagementWebApp\\SchoolManagementWebApp\\Views\\Librarian\\ReserveBook.cshtml",
+              "RelativeToolTip": "SchoolManagementWebApp\\Views\\Librarian\\ReserveBook.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T09:22:01.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ViewBooks2.cshtml",
+              "DocumentMoniker": "D:\\JYOTI_SHUKLA\\SchoolManagementSystemProject\\SchoolManagementWebApp\\SchoolManagementWebApp\\Views\\Librarian\\ViewBooks2.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagementWebApp\\Views\\Librarian\\ViewBooks2.cshtml",
+              "ToolTip": "D:\\JYOTI_SHUKLA\\SchoolManagementSystemProject\\SchoolManagementWebApp\\SchoolManagementWebApp\\Views\\Librarian\\ViewBooks2.cshtml",
+              "RelativeToolTip": "SchoolManagementWebApp\\Views\\Librarian\\ViewBooks2.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T11:24:18.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LibraryCard.cs",
+              "DocumentMoniker": "D:\\JYOTI_SHUKLA\\SchoolManagementSystemProject\\SchoolManagementWebApp\\SchoolManagementWebApp\\Models\\LibraryCard.cs",
+              "RelativeDocumentMoniker": "SchoolManagementWebApp\\Models\\LibraryCard.cs",
+              "ToolTip": "D:\\JYOTI_SHUKLA\\SchoolManagementSystemProject\\SchoolManagementWebApp\\SchoolManagementWebApp\\Models\\LibraryCard.cs",
+              "RelativeToolTip": "SchoolManagementWebApp\\Models\\LibraryCard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T10:21:35.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ViewBooks.cshtml",
+              "DocumentMoniker": "D:\\JYOTI_SHUKLA\\SchoolManagementSystemProject\\SchoolManagementWebApp\\SchoolManagementWebApp\\Views\\Librarian\\ViewBooks.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagementWebApp\\Views\\Librarian\\ViewBooks.cshtml",
+              "ToolTip": "D:\\JYOTI_SHUKLA\\SchoolManagementSystemProject\\SchoolManagementWebApp\\SchoolManagementWebApp\\Views\\Librarian\\ViewBooks.cshtml",
+              "RelativeToolTip": "SchoolManagementWebApp\\Views\\Librarian\\ViewBooks.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T11:08:36.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddBooks.cshtml",
+              "DocumentMoniker": "D:\\JYOTI_SHUKLA\\SchoolManagementSystemProject\\SchoolManagementWebApp\\SchoolManagementWebApp\\Views\\Librarian\\AddBooks.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagementWebApp\\Views\\Librarian\\AddBooks.cshtml",
+              "ToolTip": "D:\\JYOTI_SHUKLA\\SchoolManagementSystemProject\\SchoolManagementWebApp\\SchoolManagementWebApp\\Views\\Librarian\\AddBooks.cshtml",
+              "RelativeToolTip": "SchoolManagementWebApp\\Views\\Librarian\\AddBooks.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T11:10:42.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LibrarianDashboard.cshtml",
+              "DocumentMoniker": "D:\\JYOTI_SHUKLA\\SchoolManagementSystemProject\\SchoolManagementWebApp\\SchoolManagementWebApp\\Views\\Librarian\\LibrarianDashboard.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagementWebApp\\Views\\Librarian\\LibrarianDashboard.cshtml",
+              "ToolTip": "D:\\JYOTI_SHUKLA\\SchoolManagementSystemProject\\SchoolManagementWebApp\\SchoolManagementWebApp\\Views\\Librarian\\LibrarianDashboard.cshtml",
+              "RelativeToolTip": "SchoolManagementWebApp\\Views\\Librarian\\LibrarianDashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T11:00:22.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ReturnBook.cshtml",
+              "DocumentMoniker": "D:\\JYOTI_SHUKLA\\SchoolManagementSystemProject\\SchoolManagementWebApp\\SchoolManagementWebApp\\Views\\Librarian\\ReturnBook.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagementWebApp\\Views\\Librarian\\ReturnBook.cshtml",
+              "ToolTip": "D:\\JYOTI_SHUKLA\\SchoolManagementSystemProject\\SchoolManagementWebApp\\SchoolManagementWebApp\\Views\\Librarian\\ReturnBook.cshtml",
+              "RelativeToolTip": "SchoolManagementWebApp\\Views\\Librarian\\ReturnBook.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T09:21:31.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "lib.js",
+              "DocumentMoniker": "D:\\JYOTI_SHUKLA\\SchoolManagementSystemProject\\SchoolManagementWebApp\\SchoolManagementWebApp\\wwwroot\\Ajax\\lib.js",
+              "RelativeDocumentMoniker": "SchoolManagementWebApp\\wwwroot\\Ajax\\lib.js",
+              "ToolTip": "D:\\JYOTI_SHUKLA\\SchoolManagementSystemProject\\SchoolManagementWebApp\\SchoolManagementWebApp\\wwwroot\\Ajax\\lib.js",
+              "RelativeToolTip": "SchoolManagementWebApp\\wwwroot\\Ajax\\lib.js",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-17T09:23:18.174Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 912,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

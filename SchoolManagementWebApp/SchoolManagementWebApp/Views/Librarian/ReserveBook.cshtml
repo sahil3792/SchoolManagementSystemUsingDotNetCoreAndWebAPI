@@ -11,11 +11,15 @@
             <h5 class="card-title fw-semibold mb-4"></h5>
             <div class="card">
                 <div class="card-body">
-                    <form method="post" >
+                    <form id="reservationForm" method="post" asp-action="ReserveBook">
 
                         <div class="mb-3">
                             <label for="books">Select Book</label>
                             <select id="FetchBooks" name="bookId" class="form-control"></select>
+                        </div>
+                        <div class="mb-3">
+                            <label class="ReservationDate"><b>Reservation Date</b></label>
+                            <input type="date" class="form-control" asp-for="ReservationDate">
                         </div>
 
                         <div class="mb-3">
@@ -25,17 +29,13 @@
 
                         <button type="submit" class="btn btn-primary">Reserve</button>
 
-
-
                     </form>
                 </div>
             </div>
-
         </div>
     </div>
-    <div class="py-6 px-6 text-center">
-    </div>
 </div>
+
 
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
 <script src="~/lib/jquery/dist/jquery.js"></script>

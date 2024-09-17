@@ -273,15 +273,14 @@ namespace SchoolManagementWebApp.Controllers
         [HttpPost]
         public IActionResult ReserveBook(Reservation rev)
         {
-            rev.ReservationDate = DateOnly.FromDateTime(DateTime.Now);
-            rev.Status = "Empty";
+            //rev.ReservationDate = DateOnly.FromDateTime(DateTime.Now);
+            rev.Status = "Reserved";
 
             string url = "https://localhost:7238/api/Librarian/ReserveBook1";
             var jsondata = JsonConvert.SerializeObject(rev);
-            StringContent content = new StringContent(jsondata,Encoding.UTF8,"application/json");
+            StringContent content = new StringContent(jsondata, Encoding.UTF8, "application/json");
 
-
-            HttpResponseMessage res = client.PostAsync(url,content).Result;
+            HttpResponseMessage res = client.PostAsync(url, content).Result;
 
             if (res.IsSuccessStatusCode)
             {
@@ -294,16 +293,17 @@ namespace SchoolManagementWebApp.Controllers
             return View();
         }
 
+
         public IActionResult ViewBooks2()
         {
-            List<Book> books = new List<Book>();
-            string url = "https://localhost:7238/api/Librarian/GetBook";
+            List<LibraryCard> libraryCards = new List<LibraryCard>();
+            string url = "https://localhost:7238/api/Librarian/GetAllLibraryCards";
             HttpResponseMessage response = client.GetAsync(url).Result;
             if (response.IsSuccessStatusCode)
             {
                 var jsondata = response.Content.ReadAsStringAsync().Result;
-                books = JsonConvert.DeserializeObject<List<Book>>(jsondata);
-                return View(books);
+                libraryCards = JsonConvert.DeserializeObject<List<LibraryCard>>(jsondata);
+                return View(libraryCards);
             }
             else
             {
@@ -318,15 +318,17 @@ namespace SchoolManagementWebApp.Controllers
         }
 
         [HttpPost]
-        public IActionResult IssueLibraryCardAdd(Book b)
+        public IActionResult IssueLibraryCardAdd(LibraryCard lc)
         {
-            string url = "https://localhost:7238/api/Librarian/AddBooks";
-            var jsondata = JsonConvert.SerializeObject(b);
+
+            lc.Status = "Active";
+            string url = "https://localhost:7238/api/Librarian/IssueLibraryCard";
+            var jsondata = JsonConvert.SerializeObject(lc);
             StringContent stringContent = new StringContent(jsondata, Encoding.UTF8, "application/json");
             HttpResponseMessage res = client.PostAsync(url, stringContent).Result;
             if (res.IsSuccessStatusCode)
             {
-                TempData["Msg"] = "Book Added Successfully";
+                TempData["Msg"] = "Card Created  Successfully";
                 return RedirectToAction("ViewBooks2");
             }
             else

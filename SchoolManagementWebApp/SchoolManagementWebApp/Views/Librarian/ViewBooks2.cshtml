@@ -1,0 +1,45 @@
+﻿@model List<LibraryCard>
+<partial name="Notification"></partial>
+
+<div class="container-fluid">
+    <div class="card">
+        <div class="card-body">
+            <a asp-controller="Librarian" asp-action="IssueBookAdd"><input value="Issue Add" type="button" class="btn btn-light m-1" /></a>
+            <table class="table">
+                <thead class="thead-dark">
+
+                    <tr>
+                        <th scope="col">LibraryCardId</th>
+                        <th scope="col">Card Number</th>
+                        <th scope="col">User Name</th>
+                        <th scope="col">Issued Date</th>
+                        <th scope="col">Status</th>
+                        
+
+                </thead>
+                <tbody>
+                    @if (Model != null && Model.Count > 0)
+                    {
+                        foreach (var book in Model)
+                        {
+                            <tr>
+                                <td>@book.LibraryCardId</td>
+                                <td>@book.CardNumber</td>
+                                <td>@book.UserId</td>
+                                <td>@book.IssuedDate</td>
+                                <td>@book.Status</td>                           
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="8" class="text-center">No issued books found.</td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
