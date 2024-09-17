@@ -24,5 +24,6 @@ namespace SchoolManagementWebAPI.Data
         public DbSet<Reservation> Reservations { get; set; }
         public DbSet<StudentAttendance> StudentAttendances { get; set; }
         public DbSet<LibraryCard> LibraryCards { get; set; }
+        public DbSet<TeacherAttendance> TeachersAttendances { get; set; }
     }
 }

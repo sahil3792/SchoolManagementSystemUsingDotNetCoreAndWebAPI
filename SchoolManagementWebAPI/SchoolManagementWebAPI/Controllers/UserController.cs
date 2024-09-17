@@ -73,13 +73,6 @@ namespace SchoolManagementWebAPI.Controllers
             return Ok("Teacher Added Successfully");
         }
 
-        [Route("GetAllTeachers")]
-        [HttpGet]
-        public IActionResult GetAllTeacher()
-        {
-            var data = repo.GetAllTeachers();
-            return Ok(data); 
-        }
 
         [Route("AddGuardian")]
         [HttpPost]
@@ -160,6 +153,29 @@ namespace SchoolManagementWebAPI.Controllers
             return Ok();
         }
 
+        //[Route("GetAllTeachers")]
+        //[HttpGet]
+        //public IActionResult GetAllTeachers()
+        //{
+        //    var data = repo.GetAllTeachers();
+        //    return Ok(data);
+        //}
+        [Route("GetAllTeachers")]
+        [HttpGet]
+        public IActionResult GetAllTeacher()
+        {
+            var data = repo.GetAllTeachers();
+            return Ok(data);
+        }
+
+
+        [Route("AddTeacherAttendance/{AttendanceList}")]
+        [HttpPost]
+        public IActionResult AddTeacherAttendance(string[] AttendanceList)
+        {
+            repo.AddTeacherAttendance(AttendanceList);
+            return Ok();
+        }
 
     }
 }

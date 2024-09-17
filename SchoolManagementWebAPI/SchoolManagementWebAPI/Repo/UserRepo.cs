@@ -39,5 +39,8 @@ namespace SchoolManagementWebAPI.Repo
         public void ApproveTeacherLeave(int id);
         public void RejectTeacherLeave(int id);
 
+        //public List<Teacher> GetAllTeachers();
+        public void AddTeacherAttendance(string[] attendancelist);
+
     }
 }

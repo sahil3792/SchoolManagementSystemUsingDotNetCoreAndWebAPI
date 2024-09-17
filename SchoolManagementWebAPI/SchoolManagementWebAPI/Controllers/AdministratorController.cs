@@ -14,6 +14,6 @@ namespace SchoolManagementWebAPI.Controllers
             this.repo = repo;
         }
 
-        
+
     }
 }

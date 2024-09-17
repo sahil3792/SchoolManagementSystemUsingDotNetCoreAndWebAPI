@@ -1,0 +1,36 @@
+﻿@model List<Teacher>
+
+
+<partial name="Notification"></partial>
+
+<div class="container-fluid">
+    <div class="card">
+        <div class="card-body">
+            <form asp-action="MarkTeacherAttendance" method="post">
+                <table class="table ">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">Mark Attendance</th>
+                            <th scope="col">Full Name</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <th scope="row"><input type="checkbox" name="AttendanceList" value="@item.TeacherUserId" /></th>
+                                <td>@item.FirstName @item.LastName</td>
+
+
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <input type="submit" value="AddAttendance" class="btn btn-info m-1" />
+            </form>
+
+        </div>
+    </div>
+</div>

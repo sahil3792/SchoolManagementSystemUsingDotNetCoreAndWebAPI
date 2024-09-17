@@ -5,7 +5,7 @@ using SchoolManagementWebAPI.Models;
 
 namespace SchoolManagementWebAPI.Repo
 {
-    public class UserService :UserRepo
+    public class UserService : UserRepo
     {
         private readonly ApplicationDbContext db;
 
@@ -58,12 +58,6 @@ namespace SchoolManagementWebAPI.Repo
             
             
         }
-        public List<Teacher> GetAllTeachers()
-        {
-            var data = db.Teachers.FromSqlRaw($"exec FetchAllTeachers").ToList();
-            return data;
-        }
-
         public void AddGuardian(Guardian g)
         {
             db.Database.ExecuteSqlRaw($"exec AddGuardian '{g.GuardianId}','{g.Password}','{g.FirstName}','{g.LastName}','{g.Relationship}','{g.ContactNumber}','{g.Email}','{g.Address}'");
@@ -123,5 +117,28 @@ namespace SchoolManagementWebAPI.Repo
 
             db.Database.ExecuteSqlRaw($"exec RejectTeacherLeave '{id}'");
         }
+        //public List<Teacher> FetchAllTeachers()
+        //{
+        //    var data = db.Teachers.FromSqlRaw($"exec FetchAllTeachers").ToList();
+        //    return data;
+        //}
+        public List<Teacher> GetAllTeachers()
+        {
+            var data = db.Teachers.FromSqlRaw($"exec FetchAllTeachers").ToList();
+            return data;
+        }
+
+
+        public void AddTeacherAttendance(string[] attendancelist)
+        {
+            DateOnly Currentdate = DateOnly.FromDateTime(DateTime.Now);
+            int present = 1;
+            foreach (var teacher in attendancelist)
+            {
+                db.Database.ExecuteSqlRaw($"exec AddTeacherAttendance '{teacher}','{Currentdate.ToString("yyyy-MM-dd")}','{present}' ");
+            }
+
+        }
+
     }
 }
