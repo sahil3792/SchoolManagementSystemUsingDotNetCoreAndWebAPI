@@ -195,9 +195,46 @@ namespace SchoolManagementWebApp.Controllers
                 TempData["Msg"] = "Something Went Wrong please try again later";
                 return View();
             }
-            
+        }
+        public IActionResult AddAttendance()
+        {
+            List<Teacher> teachers = new List<Teacher>();
+            //var teacherid = HttpContext.Session.GetString("Teacher");
+            string url = "https://localhost:7238/api/User/GetAllTeachers";
+            HttpResponseMessage response = client.GetAsync(url).Result;
+            if (response.IsSuccessStatusCode)
+            {
+                var jsondata = response.Content.ReadAsStringAsync().Result;
+                teachers = JsonConvert.DeserializeObject<List<Teacher>>(jsondata);
+                return View(teachers);
+
+            }
+            else
+            {
+                TempData["Msg"] = "Couldnt fetch student list Please write a compliant if the problem continues";
+                return View();
+            }
+        }
+
+        public IActionResult MarkTeacherAttendance(string[] AttendanceList)
+        {
+            string url = $"https://localhost:7238/api/User/AddTeacherAttendance/{AttendanceList}";
+            var jsondata = JsonConvert.SerializeObject(AttendanceList);
+            StringContent content = new StringContent(jsondata, Encoding.UTF8, "application/json");
+            HttpResponseMessage response = client.PostAsync(url, content).Result;
+            if (response.IsSuccessStatusCode)
+            {
+                TempData["Msg"] = "Attendance Added Successfully";
+                return RedirectToAction("AdministratorDashboard");
+            }
+            else
+            {
+                TempData["Msg"] = "Couldnt Add Attendance Please try again";
+                return RedirectToAction("AdministratorDashboard");
+            }
 
         }
+
         public IActionResult FetchSubjects()
         {
             List<Subject> sub = new List<Subject>();

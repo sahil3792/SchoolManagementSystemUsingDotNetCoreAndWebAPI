@@ -1,128 +1,112 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\user\\documents\\projects\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\user\\documents\\projects\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\repo\\guardianservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\repo\\guardianservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\user\\documents\\projects\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\repo\\librarianservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\repo\\librarianservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\user\\documents\\projects\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\repo\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\repo\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\user\\documents\\projects\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\controllers\\guardiancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\controllers\\guardiancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\user\\documents\\projects\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\controllers\\librariancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\controllers\\librariancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\user\\documents\\projects\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\lenovo\\desktop\\kirti-june batch 2024\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\user\\documents\\projects\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\controllers\\administratorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\controllers\\administratorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\lenovo\\desktop\\kirti-june batch 2024\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\repo\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\repo\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\user\\documents\\projects\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Migrations\\20240917100507_changesaddattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SchoolManagementWebAPI\\Migrations\\20240917100507_changesaddattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\user\\documents\\projects\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\repo\\guardianrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\repo\\guardianrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\lenovo\\desktop\\kirti-june batch 2024\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\models\\teacherattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\models\\teacherattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\user\\documents\\projects\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\repo\\studentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\repo\\studentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\lenovo\\desktop\\kirti-june batch 2024\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\repo\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\repo\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\user\\documents\\projects\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\repo\\librarianrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\repo\\librarianrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\user\\documents\\projects\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\repo\\teacherrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\repo\\teacherrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\user\\documents\\projects\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\repo\\teacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\repo\\teacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\user\\documents\\projects\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\user\\documents\\projects\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\repo\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\repo\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\user\\documents\\projects\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\repo\\administratorrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\lenovo\\desktop\\kirti-june batch 2024\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\repo\\administratorrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\repo\\administratorrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\user\\documents\\projects\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\models\\feespay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\models\\feespay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\lenovo\\desktop\\kirti-june batch 2024\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\controllers\\administratorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\controllers\\administratorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\user\\documents\\projects\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\repo\\administratorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\lenovo\\desktop\\kirti-june batch 2024\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\repo\\administratorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\repo\\administratorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\user\\documents\\projects\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\models\\guardian.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\models\\guardian.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\lenovo\\desktop\\kirti-june batch 2024\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\user\\documents\\projects\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\migrations\\20240917081157_changesinteachertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\migrations\\20240917081157_changesinteachertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\lenovo\\desktop\\kirti-june batch 2024\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\repo\\teacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\repo\\teacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\user\\documents\\projects\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\lenovo\\desktop\\kirti-june batch 2024\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\repo\\teacherrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\repo\\teacherrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\user\\documents\\projects\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\controllers\\teachercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\lenovo\\desktop\\kirti-june batch 2024\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\controllers\\teachercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\controllers\\teachercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\user\\documents\\projects\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\migrations\\20240909195427_addedclassestable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\lenovo\\desktop\\kirti-june batch 2024\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\lenovo\\desktop\\kirti-june batch 2024\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\lenovo\\desktop\\kirti-june batch 2024\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\repo\\librarianservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\repo\\librarianservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\lenovo\\desktop\\kirti-june batch 2024\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\models\\studentattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\models\\studentattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\lenovo\\desktop\\kirti-june batch 2024\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\repo\\librarianrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\repo\\librarianrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\lenovo\\desktop\\kirti-june batch 2024\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\migrations\\20240917081157_changesinteachertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\migrations\\20240917081157_changesinteachertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\lenovo\\desktop\\kirti-june batch 2024\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\lenovo\\desktop\\kirti-june batch 2024\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\controllers\\librariancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\controllers\\librariancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\lenovo\\desktop\\kirti-june batch 2024\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\migrations\\20240909195427_addedclassestable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\migrations\\20240909195427_addedclassestable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\SchoolManagementSystemUsingDotNetCoreAndWebAPI-main\\SchoolManagementSystemUsingDotNetCoreAndWebAPI-main\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Models\\Reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\user\\documents\\projects\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\models\\librarycard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\lenovo\\desktop\\kirti-june batch 2024\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\models\\librarycard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\models\\librarycard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\user\\documents\\projects\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\models\\issuedbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\lenovo\\desktop\\kirti-june batch 2024\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\models\\issuedbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\models\\issuedbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\user\\documents\\projects\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\lenovo\\desktop\\kirti-june batch 2024\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\user\\documents\\projects\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\models\\studentattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\models\\studentattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\user\\documents\\projects\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\migrations\\20240916083049_librarycardtableadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\lenovo\\desktop\\kirti-june batch 2024\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\migrations\\20240916083049_librarycardtableadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\migrations\\20240916083049_librarycardtableadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\user\\documents\\projects\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\migrations\\20240917075936_changes_in_classtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|c:\\users\\lenovo\\desktop\\kirti-june batch 2024\\schoolmanagementsystemusingdotnetcoreandwebapi\\schoolmanagementwebapi\\schoolmanagementwebapi\\migrations\\20240917075936_changes_in_classtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4A7AFFF-0736-4AFC-8868-FAD0550DB451}|SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj|solutionrelative:schoolmanagementwebapi\\migrations\\20240917075936_changes_in_classtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -132,9 +116,13 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 489,
-          "SelectedChildIndex": 7,
+          "DockedWidth": 200,
+          "SelectedChildIndex": 21,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -149,14 +137,6 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
@@ -165,216 +145,258 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Class.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Models\\Class.cs",
-              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Models\\Class.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Models\\Class.cs",
-              "RelativeToolTip": "SchoolManagementWebAPI\\Models\\Class.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAoAAAA",
+              "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Repo\\UserService.cs",
+              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Repo\\UserService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Repo\\UserService.cs",
+              "RelativeToolTip": "SchoolManagementWebAPI\\Repo\\UserService.cs",
+              "ViewState": "AQIAAHcAAAAAAAAAAAAAwIwAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T07:57:25.542Z",
+              "WhenOpened": "2024-09-17T09:42:49.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Repo\\UserRepo.cs",
+              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Repo\\UserRepo.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Repo\\UserRepo.cs",
+              "RelativeToolTip": "SchoolManagementWebAPI\\Repo\\UserRepo.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAmwCcAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T09:42:29.327Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Program.cs",
               "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Program.cs",
               "RelativeToolTip": "SchoolManagementWebAPI\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAA5AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T10:04:04.745Z"
+              "WhenOpened": "2024-09-17T09:41:30.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdministratorRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Repo\\AdministratorRepo.cs",
+              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Repo\\AdministratorRepo.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Repo\\AdministratorRepo.cs",
+              "RelativeToolTip": "SchoolManagementWebAPI\\Repo\\AdministratorRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T09:09:02.265Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "StudentRepo.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Repo\\StudentRepo.cs",
-              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Repo\\StudentRepo.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Repo\\StudentRepo.cs",
-              "RelativeToolTip": "SchoolManagementWebAPI\\Repo\\StudentRepo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "TeacherRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Repo\\TeacherRepo.cs",
+              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Repo\\TeacherRepo.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Repo\\TeacherRepo.cs",
+              "RelativeToolTip": "SchoolManagementWebAPI\\Repo\\TeacherRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T09:57:01.317Z"
+              "WhenOpened": "2024-09-12T19:33:44.427Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserRepo.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Repo\\UserRepo.cs",
-              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Repo\\UserRepo.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Repo\\UserRepo.cs",
-              "RelativeToolTip": "SchoolManagementWebAPI\\Repo\\UserRepo.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAA/wBcAAAAoAAAA",
+              "DocumentIndex": 13,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "SchoolManagementWebAPI\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBwAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T09:36:31.488Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "StudentService.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Repo\\StudentService.cs",
-              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Repo\\StudentService.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Repo\\StudentService.cs",
-              "RelativeToolTip": "SchoolManagementWebAPI\\Repo\\StudentService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T09:36:28.68Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "AdministratorService.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Repo\\AdministratorService.cs",
-              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Repo\\AdministratorService.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Repo\\AdministratorService.cs",
-              "RelativeToolTip": "SchoolManagementWebAPI\\Repo\\AdministratorService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T09:30:28.659Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AdministratorRepo.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Repo\\AdministratorRepo.cs",
-              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Repo\\AdministratorRepo.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Repo\\AdministratorRepo.cs",
-              "RelativeToolTip": "SchoolManagementWebAPI\\Repo\\AdministratorRepo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T09:30:27.442Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GuardianServices.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Repo\\GuardianServices.cs",
-              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Repo\\GuardianServices.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Repo\\GuardianServices.cs",
-              "RelativeToolTip": "SchoolManagementWebAPI\\Repo\\GuardianServices.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABRAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T09:30:22.098Z"
+              "WhenOpened": "2024-09-16T08:29:03.24Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "GuardianRepo.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Repo\\GuardianRepo.cs",
-              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Repo\\GuardianRepo.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Repo\\GuardianRepo.cs",
-              "RelativeToolTip": "SchoolManagementWebAPI\\Repo\\GuardianRepo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Title": "TeacherService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Repo\\TeacherService.cs",
+              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Repo\\TeacherService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Repo\\TeacherService.cs",
+              "RelativeToolTip": "SchoolManagementWebAPI\\Repo\\TeacherService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAB7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T09:27:58.556Z"
+              "WhenOpened": "2024-09-12T19:34:20.029Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GuardianController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Controllers\\GuardianController.cs",
-              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Controllers\\GuardianController.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Controllers\\GuardianController.cs",
-              "RelativeToolTip": "SchoolManagementWebAPI\\Controllers\\GuardianController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAANAAAA",
+              "DocumentIndex": 11,
+              "Title": "TeacherController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Controllers\\TeacherController.cs",
+              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Controllers\\TeacherController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Controllers\\TeacherController.cs",
+              "RelativeToolTip": "SchoolManagementWebAPI\\Controllers\\TeacherController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAYwBoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T09:27:00.761Z"
+              "WhenOpened": "2024-09-12T17:58:15.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdministratorController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Controllers\\AdministratorController.cs",
+              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Controllers\\AdministratorController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Controllers\\AdministratorController.cs",
+              "RelativeToolTip": "SchoolManagementWebAPI\\Controllers\\AdministratorController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T09:19:27.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "SchoolManagementWebAPI\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAJ8AAAAAAAAAAAAuwLEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T08:07:28.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20240917100507_changesaddattendance.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Migrations\\20240917100507_changesaddattendance.cs",
+              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Migrations\\20240917100507_changesaddattendance.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Migrations\\20240917100507_changesaddattendance.cs",
+              "RelativeToolTip": "SchoolManagementWebAPI\\Migrations\\20240917100507_changesaddattendance.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T10:05:07.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TeacherAttendance.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Models\\TeacherAttendance.cs",
+              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Models\\TeacherAttendance.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Models\\TeacherAttendance.cs",
+              "RelativeToolTip": "SchoolManagementWebAPI\\Models\\TeacherAttendance.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T10:02:54.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Models\\Teacher.cs",
+              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Models\\Teacher.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Models\\Teacher.cs",
+              "RelativeToolTip": "SchoolManagementWebAPI\\Models\\Teacher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T08:10:33.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdministratorService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Repo\\AdministratorService.cs",
+              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Repo\\AdministratorService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Repo\\AdministratorService.cs",
+              "RelativeToolTip": "SchoolManagementWebAPI\\Repo\\AdministratorService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAuwA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T08:42:19.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LibrarianService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Repo\\LibrarianService.cs",
+              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Repo\\LibrarianService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Repo\\LibrarianService.cs",
+              "RelativeToolTip": "SchoolManagementWebAPI\\Repo\\LibrarianService.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAmwF4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T08:07:28.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LibrarianRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Repo\\LibrarianRepo.cs",
+              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Repo\\LibrarianRepo.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Repo\\LibrarianRepo.cs",
+              "RelativeToolTip": "SchoolManagementWebAPI\\Repo\\LibrarianRepo.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAYwBYAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T08:13:16.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "StudentAttendance.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Models\\StudentAttendance.cs",
+              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Models\\StudentAttendance.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Models\\StudentAttendance.cs",
+              "RelativeToolTip": "SchoolManagementWebAPI\\Models\\StudentAttendance.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T19:41:52.07Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "Feespay.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Models\\Feespay.cs",
-              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Models\\Feespay.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Models\\Feespay.cs",
-              "RelativeToolTip": "SchoolManagementWebAPI\\Models\\Feespay.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Title": "20240917081157_changesinteachertable.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Migrations\\20240917081157_changesinteachertable.cs",
+              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Migrations\\20240917081157_changesinteachertable.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Migrations\\20240917081157_changesinteachertable.cs",
+              "RelativeToolTip": "SchoolManagementWebAPI\\Migrations\\20240917081157_changesinteachertable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T09:22:17.808Z"
+              "WhenOpened": "2024-09-17T08:11:57.262Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "Guardian.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Models\\Guardian.cs",
-              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Models\\Guardian.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Models\\Guardian.cs",
-              "RelativeToolTip": "SchoolManagementWebAPI\\Models\\Guardian.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "LibrarianController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Controllers\\LibrarianController.cs",
+              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Controllers\\LibrarianController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Controllers\\LibrarianController.cs",
+              "RelativeToolTip": "SchoolManagementWebAPI\\Controllers\\LibrarianController.cs",
+              "ViewState": "AQIAAHoAAAAAAAAAAAA1wIEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T09:12:15.973Z"
+              "WhenOpened": "2024-09-13T09:19:29.211Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "20240917081157_changesinteachertable.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Migrations\\20240917081157_changesinteachertable.cs",
-              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Migrations\\20240917081157_changesinteachertable.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Migrations\\20240917081157_changesinteachertable.cs",
-              "RelativeToolTip": "SchoolManagementWebAPI\\Migrations\\20240917081157_changesinteachertable.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T08:11:57.262Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Teacher.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Models\\Teacher.cs",
-              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Models\\Teacher.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Models\\Teacher.cs",
-              "RelativeToolTip": "SchoolManagementWebAPI\\Models\\Teacher.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T08:10:33.433Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "20240917075936_Changes_in_ClassTable.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Migrations\\20240917075936_Changes_in_ClassTable.cs",
-              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Migrations\\20240917075936_Changes_in_ClassTable.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Migrations\\20240917075936_Changes_in_ClassTable.cs",
-              "RelativeToolTip": "SchoolManagementWebAPI\\Migrations\\20240917075936_Changes_in_ClassTable.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T07:59:37.094Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "IssuedBook.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Models\\IssuedBook.cs",
-              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Models\\IssuedBook.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Models\\IssuedBook.cs",
-              "RelativeToolTip": "SchoolManagementWebAPI\\Models\\IssuedBook.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T08:28:17.544Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Book.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Models\\Book.cs",
-              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Models\\Book.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Models\\Book.cs",
-              "RelativeToolTip": "SchoolManagementWebAPI\\Models\\Book.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T08:18:28.688Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 22,
               "Title": "LibraryCard.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Models\\LibraryCard.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Models\\LibraryCard.cs",
               "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Models\\LibraryCard.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Models\\LibraryCard.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Models\\LibraryCard.cs",
               "RelativeToolTip": "SchoolManagementWebAPI\\Models\\LibraryCard.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -382,44 +404,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "LibrarianRepo.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Repo\\LibrarianRepo.cs",
-              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Repo\\LibrarianRepo.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Repo\\LibrarianRepo.cs",
-              "RelativeToolTip": "SchoolManagementWebAPI\\Repo\\LibrarianRepo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T08:13:16.032Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LibrarianService.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Repo\\LibrarianService.cs",
-              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Repo\\LibrarianService.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Repo\\LibrarianService.cs",
-              "RelativeToolTip": "SchoolManagementWebAPI\\Repo\\LibrarianService.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAuwB4AAAB8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T08:07:28.062Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LibrarianController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Controllers\\LibrarianController.cs",
-              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Controllers\\LibrarianController.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Controllers\\LibrarianController.cs",
-              "RelativeToolTip": "SchoolManagementWebAPI\\Controllers\\LibrarianController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T09:19:29.211Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 24,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Models\\Book.cs",
+              "RelativeToolTip": "SchoolManagementWebAPI\\Models\\Book.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T08:18:28.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IssuedBook.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Models\\IssuedBook.cs",
+              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Models\\IssuedBook.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Models\\IssuedBook.cs",
+              "RelativeToolTip": "SchoolManagementWebAPI\\Models\\IssuedBook.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T08:28:17.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Class.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Models\\Class.cs",
+              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Models\\Class.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Models\\Class.cs",
+              "RelativeToolTip": "SchoolManagementWebAPI\\Models\\Class.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T07:57:25.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20240917075936_Changes_in_ClassTable.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Migrations\\20240917075936_Changes_in_ClassTable.cs",
+              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Migrations\\20240917075936_Changes_in_ClassTable.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Migrations\\20240917075936_Changes_in_ClassTable.cs",
+              "RelativeToolTip": "SchoolManagementWebAPI\\Migrations\\20240917075936_Changes_in_ClassTable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T07:59:37.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "Reservation.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\SchoolManagementSystemUsingDotNetCoreAndWebAPI-main\\SchoolManagementSystemUsingDotNetCoreAndWebAPI-main\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Models\\Reservation.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Admin\\Downloads\\SchoolManagementSystemUsingDotNetCoreAndWebAPI-main\\SchoolManagementSystemUsingDotNetCoreAndWebAPI-main\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Models\\Reservation.cs",
@@ -431,24 +464,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "TeacherController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Controllers\\TeacherController.cs",
-              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Controllers\\TeacherController.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Controllers\\TeacherController.cs",
-              "RelativeToolTip": "SchoolManagementWebAPI\\Controllers\\TeacherController.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAAwC8AAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T17:58:15.501Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 20,
               "Title": "20240909195427_addedclassestable.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Migrations\\20240909195427_addedclassestable.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Migrations\\20240909195427_addedclassestable.cs",
               "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Migrations\\20240909195427_addedclassestable.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Migrations\\20240909195427_addedclassestable.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Migrations\\20240909195427_addedclassestable.cs",
               "RelativeToolTip": "SchoolManagementWebAPI\\Migrations\\20240909195427_addedclassestable.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -456,88 +476,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "TeacherService.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Repo\\TeacherService.cs",
-              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Repo\\TeacherService.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Repo\\TeacherService.cs",
-              "RelativeToolTip": "SchoolManagementWebAPI\\Repo\\TeacherService.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAxwCEAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T19:34:20.029Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "SchoolManagementWebAPI\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAA7wBkAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T08:29:03.24Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 25,
               "Title": "20240916083049_LibraryCardTableAdded.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Migrations\\20240916083049_LibraryCardTableAdded.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Migrations\\20240916083049_LibraryCardTableAdded.cs",
               "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Migrations\\20240916083049_LibraryCardTableAdded.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Migrations\\20240916083049_LibraryCardTableAdded.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Migrations\\20240916083049_LibraryCardTableAdded.cs",
               "RelativeToolTip": "SchoolManagementWebAPI\\Migrations\\20240916083049_LibraryCardTableAdded.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-16T08:30:49.19Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Controllers\\UserController.cs",
-              "RelativeToolTip": "SchoolManagementWebAPI\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T08:07:28.052Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AdministratorController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Controllers\\AdministratorController.cs",
-              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Controllers\\AdministratorController.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Controllers\\AdministratorController.cs",
-              "RelativeToolTip": "SchoolManagementWebAPI\\Controllers\\AdministratorController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T09:19:27.57Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "StudentAttendance.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Models\\StudentAttendance.cs",
-              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Models\\StudentAttendance.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Models\\StudentAttendance.cs",
-              "RelativeToolTip": "SchoolManagementWebAPI\\Models\\StudentAttendance.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T19:41:52.07Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TeacherRepo.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Repo\\TeacherRepo.cs",
-              "RelativeDocumentMoniker": "SchoolManagementWebAPI\\Repo\\TeacherRepo.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\Repo\\TeacherRepo.cs",
-              "RelativeToolTip": "SchoolManagementWebAPI\\Repo\\TeacherRepo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T19:33:44.427Z"
             }
           ]
         },

@@ -4,6 +4,5 @@ namespace SchoolManagementWebAPI.Repo
 {
     public interface AdministratorRepo
     {
-        
     }
 }

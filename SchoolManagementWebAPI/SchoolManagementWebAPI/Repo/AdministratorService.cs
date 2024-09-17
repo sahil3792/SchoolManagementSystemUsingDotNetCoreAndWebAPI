@@ -11,6 +11,7 @@ namespace SchoolManagementWebAPI.Repo
         {
             this.db = db;
         }
-        
+
+
     }
 }

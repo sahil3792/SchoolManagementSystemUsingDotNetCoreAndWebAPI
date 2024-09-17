@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj": {}
+    "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj": {
+    "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj",
         "projectName": "SchoolManagementWebAPI",
-        "projectPath": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Documents\\Projects\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\obj\\",
+        "projectPath": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lenovo\\Desktop\\Kirti-June Batch 2024\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebAPI\\SchoolManagementWebAPI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
