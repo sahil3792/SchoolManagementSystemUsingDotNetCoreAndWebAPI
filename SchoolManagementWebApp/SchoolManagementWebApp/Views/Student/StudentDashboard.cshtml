@@ -124,3 +124,65 @@
         </div>
     </div>
 </div>
+<div class="container-fluid p-4">
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="card shadow-sm border-0 rounded">
+                <div class="card-body">
+                    <h5 class="card-title mb-4 d-flex align-items-center">
+                        Subject Scores Overview
+                        <span class="ms-2" data-bs-toggle="tooltip" data-bs-placement="top" title="Subject Scores Overview">
+                            <i class="bi bi-info-circle text-muted"></i>
+                        </span>
+                    </h5>
+                    <div class="bg-white rounded p-3 shadow-sm">
+                        <canvas id="subjectScoresChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Other content can go here -->
+    </div>
+</div>
+
+<!-- Bootstrap JS Bundle (including Popper) -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var ctx = document.getElementById('subjectScoresChart').getContext('2d');
+        var subjectScoresChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Math', 'English', 'Science', 'History', 'Art'], // Example subjects
+                datasets: [{
+                    label: 'Scores',
+                    data: [85, 90, 78, 92, 88], // Example scores
+                    backgroundColor: 'rgba(75, 192, 192, 0.5)',
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    x: {
+                        beginAtZero: true,
+                        grid: {
+                            display: false
+                        }
+                    },
+                    y: {
+                        beginAtZero: true,
+                        max: 100, // Setting max value for y-axis
+                        ticks: {
+                            stepSize: 10
+                        },
+                        grid: {
+                            color: 'rgba(0, 0, 0, 0.1)'
+                        }
+                    }
+                }
+            }
+        });
+    });
+</script>

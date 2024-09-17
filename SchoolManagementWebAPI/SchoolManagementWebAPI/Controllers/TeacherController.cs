@@ -52,5 +52,13 @@ namespace SchoolManagementWebAPI.Controllers
             var data = repo.FetchAllSubjectByStudentid(id);
             return Ok(data);
         }
+
+        [Route("AddStudentMarks")]
+        [HttpPost]
+        public IActionResult AddStudentsMark(StudentMarks sm)
+        {
+            var data = repo.AddStudentMarks(sm);
+            return Ok(data);
+        }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using SchoolManagementWebAPI.Data;
 using SchoolManagementWebAPI.Models;
 
@@ -44,6 +45,20 @@ namespace SchoolManagementWebAPI.Repo
         {
             var data = db.Subjects.FromSqlRaw($"exec FetchSubjectBasedontheStudentid '{studentid}'").ToList();
             return data;
+        }
+
+        public int AddStudentMarks(StudentMarks sm)
+        {
+            var data  = db.StudentsMarks.FromSqlRaw($"exec FetchidDataExistsornot '{sm.StudentId}','{sm.SubjectId}'");
+            if(data.IsNullOrEmpty())
+            {
+                db.Database.ExecuteSqlRaw($"exec AddStudentMarks '{sm.StudentId}','{sm.SubjectId}','{sm.Marks}'");
+                return 0;
+            }
+            else
+            {
+                return 1;
+            }
         }
     }
 }

@@ -14,6 +14,8 @@ namespace SchoolManagementWebAPI.Repo
         public void AddStudentAttendance(string[] attendancelist);
 
         public List<Subject> FetchAllSubjectByStudentid(string studentid);
+
+        public int AddStudentMarks(StudentMarks sm);
         
     }
 }

@@ -1,7 +1,7 @@
 ﻿@{
     var studentId = ViewBag.StudentId;
 }
-
+@model StudentMarks
 
 
 <partial name="Notification"></partial>
@@ -13,15 +13,23 @@
                 <div class="card-body">
                     <form method="post">
                         <div class="mb-3">
+
+                            <label class="form-label">Student User ID</label>
+                            <input type ="text" class="form-control" value="@studentId"  asp-for="StudentId" readonly/>
+                            
+
+                        </div>
+                        <div class="mb-3">
+                            
                             <label class="form-label">Class Name</label>
-                            <select id="subjectDropdown" class="form-control">
+                            <select id="subjectDropdown" class="form-control" asp-for="SubjectId">
                                 <option value="">Loading subjects...</option>
                             </select>
 
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputPassword1" class="form-label">Enter Marks</label>
-                            <input type="text" class="form-control" />
+                            <input type="text" class="form-control" asp-for="Marks"/>
                             
                         </div>
 

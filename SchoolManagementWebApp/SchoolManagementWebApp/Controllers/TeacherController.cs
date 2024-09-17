@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.JSInterop;
 using Newtonsoft.Json;
 using SchoolManagementWebApp.Models;
 using System.Text;
@@ -140,6 +141,35 @@ namespace SchoolManagementWebApp.Controllers
         public IActionResult AddGradeRecord(string id)
         {
             ViewBag.StudentId = id;
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult AddGradeRecord(StudentMarks sm)
+        {
+            string url = "https://localhost:7238/api/Teacher/AddStudentMarks";
+            var jsondata = JsonConvert.SerializeObject(sm);
+            StringContent stringContent = new StringContent(jsondata,Encoding.UTF8,"application/json");
+            HttpResponseMessage res = client.PostAsync(url,stringContent).Result;
+            if (res.IsSuccessStatusCode)
+            {
+                var data = res.Content.ReadAsStringAsync().Result;
+                if(data == "1")
+                {
+                    TempData["Msg"] = "Mark Already added for that subject";
+                    return RedirectToAction("ViewStudents");
+                }
+                else
+                {
+                    TempData["Msg"] = "Marks added Successfully";
+                    return RedirectToAction("ViewStudents");
+                }
+            }
+            else
+            {
+                return View();
+            }
+
             return View();
         }
 
