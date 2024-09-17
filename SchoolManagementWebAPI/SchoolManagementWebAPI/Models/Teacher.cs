@@ -11,5 +11,6 @@
         public int SubjectId { get; set; }
         public string Email { get; set; }
         public DateOnly HireDate { get; set; }
+        public decimal Salary { get; set; }
     }
 }

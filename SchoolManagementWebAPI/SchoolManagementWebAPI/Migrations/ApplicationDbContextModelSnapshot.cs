@@ -86,6 +86,9 @@ namespace SchoolManagementWebAPI.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<decimal>("Fees")
+                        .HasColumnType("decimal(18,2)");
+
                     b.Property<string>("TeacherCoordinatorId")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -386,6 +389,9 @@ namespace SchoolManagementWebAPI.Migrations
                     b.Property<string>("Qualification")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("Salary")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<int>("SubjectId")
                         .HasColumnType("int");

@@ -3,8 +3,8 @@
     public class Class
     {
         public int Id { get; set; }
-        public string ClassName { get; set; }   
-        
-        public string TeacherCoordinatorId {  get; set; }
+        public string ClassName { get; set; }
+        public string TeacherCoordinatorId { get; set; }
+        public decimal Fees { get; set; }
     }
 }
