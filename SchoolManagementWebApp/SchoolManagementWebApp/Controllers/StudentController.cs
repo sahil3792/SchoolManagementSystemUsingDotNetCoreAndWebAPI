@@ -14,6 +14,17 @@ namespace SchoolManagementWebApp.Controllers
         }
         public IActionResult StudentDashboard()
         {
+            StudentAttendancePercentage tt = new StudentAttendancePercentage();
+            var Userid = HttpContext.Session.GetString("Student");
+            string url = $"https://localhost:7238/api/Student/student-data/{Userid}";
+            HttpResponseMessage response = client.GetAsync(url).Result;
+            if (response.IsSuccessStatusCode)
+            {
+                var jsondata = response.Content.ReadAsStringAsync().Result;
+                tt = JsonConvert.DeserializeObject<StudentAttendancePercentage>(jsondata);
+                return View(tt);
+
+            }
             return View();
         }
         public IActionResult ViewTimetable()

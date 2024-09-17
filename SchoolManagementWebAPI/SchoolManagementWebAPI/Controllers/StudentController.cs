@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using SchoolManagementWebAPI.Models;
 using SchoolManagementWebAPI.Repo;
 
 namespace SchoolManagementWebAPI.Controllers
@@ -12,13 +13,20 @@ namespace SchoolManagementWebAPI.Controllers
         {
             this.repo = repo;
         }
-        
+
 
         [Route("FetchTimetableBasedOnStudentId/{id}")]
         [HttpGet]
         public IActionResult FetchTimetableBasedOnStudentId(string id)
         {
-            var data =repo.FetchTimetableByStudentid(id);
+            var data = repo.FetchTimetableByStudentid(id);
+            return Ok(data);
+        }
+
+        [HttpGet("student-data/{id}")]
+        public IActionResult GetStudentData(string id)
+        {
+            var data=repo.GetStudentData(id);
             return Ok(data);
         }
     }
