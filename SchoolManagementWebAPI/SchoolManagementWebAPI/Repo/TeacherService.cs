@@ -39,5 +39,11 @@ namespace SchoolManagementWebAPI.Repo
             }
            
         }
+
+        public List<Subject> FetchAllSubjectByStudentid(string studentid)
+        {
+            var data = db.Subjects.FromSqlRaw($"exec FetchSubjectBasedontheStudentid '{studentid}'").ToList();
+            return data;
+        }
     }
 }

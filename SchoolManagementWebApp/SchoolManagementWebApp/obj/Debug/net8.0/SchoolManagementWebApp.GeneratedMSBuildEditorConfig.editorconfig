@@ -158,6 +158,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxBZGRBdHRlbmRhbmNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Admin/Desktop/Sahil Shaikh/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Teacher/AddGradeRecord.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxBZGRHcmFkZVJlY29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Admin/Desktop/Sahil Shaikh/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Teacher/ApplyLeave.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxBcHBseUxlYXZlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

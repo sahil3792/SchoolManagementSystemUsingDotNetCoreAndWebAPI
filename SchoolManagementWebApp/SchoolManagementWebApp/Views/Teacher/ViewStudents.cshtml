@@ -8,7 +8,7 @@
         <div class="card-body">
             <h5 class="card-title fw-semibold mb-4">Add Student Grade</h5>
             <div class="card">
-            <form asp-action="MarkStudentAttendance" method="post">
+            <form>
                 <table class="table ">
                     <thead class="thead-dark">
                         <tr>
@@ -26,8 +26,8 @@
                                 <th scope="row">@item.StudentId</th>
                                 <td>@item.FirstName @item.MiddleName @item.LastName</td>
                                 <td>
-                                    
-                                    <button type="button" id="OpenGradeModal" class="btn btn-sm btn-outline-info m-1">Grade</button>
+                                        <a asp-controller="Teacher" asp-action="AddGradeRecord" asp-route-id="@item.StudentId"><input type="button" value="Disciplinary" class="btn btn-sm btn-outline-info m-1" /></a>
+
                                     <a @* asp-controller="Teacher" asp-action="AddAcademicPerformance" *@><input type="button" value="Academic Performance" class="btn btn-sm btn-light m-1" onclick="ViewModal" /></a>
                                     <a asp-controller="Teacher" asp-action="AddDiscplinaryRecord"><input type="button" value="Disciplinary" class="btn btn-sm btn-secondary m-1" /></a>
                                 </td>

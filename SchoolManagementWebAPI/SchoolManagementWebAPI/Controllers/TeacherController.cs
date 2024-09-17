@@ -44,5 +44,13 @@ namespace SchoolManagementWebAPI.Controllers
             repo.AddStudentAttendance(attendancelist);
             return Ok();
         }
+
+        [Route("FetchAllSubjectsByStudentid/{id}")]
+        [HttpGet]
+        public IActionResult FetchAllSubjectsByStudentID(string id)
+        {
+            var data = repo.FetchAllSubjectByStudentid(id);
+            return Ok(data);
+        }
     }
 }

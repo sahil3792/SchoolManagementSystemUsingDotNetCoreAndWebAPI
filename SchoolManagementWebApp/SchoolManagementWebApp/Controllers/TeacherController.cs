@@ -136,5 +136,35 @@ namespace SchoolManagementWebApp.Controllers
 
             
         }
+
+        public IActionResult AddGradeRecord(string id)
+        {
+            ViewBag.StudentId = id;
+            return View();
+        }
+
+        public IActionResult FetchSubjects(string id)
+        {
+            List<Subject> subjects = new List<Subject>();   
+            string url = $"https://localhost:7238/api/Teacher/FetchAllSubjectsByStudentid/{id}";
+            HttpResponseMessage res= client.GetAsync (url).Result;
+            if (res.IsSuccessStatusCode)
+            {
+                var jsondata =res.Content.ReadAsStringAsync().Result;
+                subjects = JsonConvert.DeserializeObject<List<Subject>>(jsondata);
+                return Json(subjects);
+
+            }
+            else
+            {
+                TempData["Msg"] = "Couldnt Fetch Subject Please try again later";
+                return RedirectToAction("AddGradeRecord");
+            }
+
+                
+            return Json(subjects);
+        }
+
+
     }
 }

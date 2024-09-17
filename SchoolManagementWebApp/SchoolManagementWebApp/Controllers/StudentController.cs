@@ -34,7 +34,7 @@ namespace SchoolManagementWebApp.Controllers
                 TempData["Msg"] = "Something Went Wrong Please Try Again Later";
                 return View();
             }
-            return View();
+            
         }
 
         
