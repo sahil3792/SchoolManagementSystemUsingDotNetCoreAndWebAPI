@@ -9,183 +9,203 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SchoolManagementWebApp
 build_property.RootNamespace = SchoolManagementWebApp
-build_property.ProjectDir = C:\Users\Lenovo\Desktop\Kirti-June Batch 2024\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp\
+build_property.ProjectDir = C:\Users\USER\Documents\Projects\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Lenovo\Desktop\Kirti-June Batch 2024\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp
+build_property.MSBuildProjectDirectory = C:\Users\USER\Documents\Projects\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Lenovo/Desktop/Kirti-June Batch 2024/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Models/IssuedBook.cshtml]
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Models/IssuedBook.cshtml]
 build_metadata.AdditionalFiles.TargetPath = TW9kZWxzXElzc3VlZEJvb2suY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/Desktop/Kirti-June Batch 2024/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Administrator/AddAttendance.cshtml]
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Administrator/AddAttendance.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxBZGRBdHRlbmRhbmNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/Desktop/Kirti-June Batch 2024/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Administrator/AddClass.cshtml]
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Administrator/AddClass.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxBZGRDbGFzcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/Desktop/Kirti-June Batch 2024/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Administrator/AddGuardian.cshtml]
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Administrator/AddGuardian.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxBZGRHdWFyZGlhbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/Desktop/Kirti-June Batch 2024/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Administrator/AddLibrarian.cshtml]
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Administrator/AddLibrarian.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxBZGRMaWJyYXJpYW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/Desktop/Kirti-June Batch 2024/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Administrator/AddSubjects.cshtml]
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Administrator/AddSubjects.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxBZGRTdWJqZWN0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/Desktop/Kirti-June Batch 2024/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Administrator/AddTeacher.cshtml]
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Administrator/AddTeacher.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxBZGRUZWFjaGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/Desktop/Kirti-June Batch 2024/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Administrator/AddTimetable.cshtml]
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Administrator/AddTimetable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxBZGRUaW1ldGFibGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/Desktop/Kirti-June Batch 2024/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Administrator/AdministratorDashboard.cshtml]
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Administrator/AdministratorDashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxBZG1pbmlzdHJhdG9yRGFzaGJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/Desktop/Kirti-June Batch 2024/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Administrator/AdmitStudent.cshtml]
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Administrator/AdmitStudent.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxBZG1pdFN0dWRlbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/Desktop/Kirti-June Batch 2024/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Administrator/ViewLeaveRequest.cshtml]
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Administrator/ViewLeaveRequest.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxWaWV3TGVhdmVSZXF1ZXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/Desktop/Kirti-June Batch 2024/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Home/Index.cshtml]
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Guardian/FeesPay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3VhcmRpYW5cRmVlc1BheS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Guardian/GuardianDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3VhcmRpYW5cR3VhcmRpYW5EYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Guardian/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3VhcmRpYW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/Desktop/Kirti-June Batch 2024/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Home/Privacy.cshtml]
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/Desktop/Kirti-June Batch 2024/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Index/Index.cshtml]
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Index/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5kZXhcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/Desktop/Kirti-June Batch 2024/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Librarian/AddBooks.cshtml]
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Librarian/AddBooks.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyaWFuXEFkZEJvb2tzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/Desktop/Kirti-June Batch 2024/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Librarian/IssueBookAdd.cshtml]
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Librarian/IssueBookAdd.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyaWFuXElzc3VlQm9va0FkZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/Desktop/Kirti-June Batch 2024/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Librarian/LateFee.cshtml]
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Librarian/LateFee.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyaWFuXExhdGVGZWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/Desktop/Kirti-June Batch 2024/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Librarian/LibrarianDashboard.cshtml]
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Librarian/LibrarianDashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyaWFuXExpYnJhcmlhbkRhc2hib2FyZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/Desktop/Kirti-June Batch 2024/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Librarian/ReserveBook.cshtml]
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Librarian/ReserveBook.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyaWFuXFJlc2VydmVCb29rLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/Desktop/Kirti-June Batch 2024/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Librarian/ReturnBook.cshtml]
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Librarian/ReturnBook.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyaWFuXFJldHVybkJvb2suY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/Desktop/Kirti-June Batch 2024/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Librarian/UpdateBook.cshtml]
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Librarian/UpdateBook.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyaWFuXFVwZGF0ZUJvb2suY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/Desktop/Kirti-June Batch 2024/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Librarian/ViewBooks.cshtml]
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Librarian/ViewBooks.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyaWFuXFZpZXdCb29rcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/Desktop/Kirti-June Batch 2024/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Librarian/ViewBooks1.cshtml]
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Librarian/ViewBooks1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyaWFuXFZpZXdCb29rczEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/Desktop/Kirti-June Batch 2024/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Shared/AdministratorLayout.cshtml]
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Shared/AdministratorLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFkbWluaXN0cmF0b3JMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/Desktop/Kirti-June Batch 2024/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Shared/Error.cshtml]
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/Desktop/Kirti-June Batch 2024/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Shared/LibrarianLayout.cshtml]
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Shared/GuardianLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEd1YXJkaWFuTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Shared/LibrarianLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExpYnJhcmlhbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/Desktop/Kirti-June Batch 2024/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Shared/Notification.cshtml]
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Shared/Notification.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE5vdGlmaWNhdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/Desktop/Kirti-June Batch 2024/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Shared/StudentLayout.cshtml]
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Shared/StudentLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFN0dWRlbnRMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/Desktop/Kirti-June Batch 2024/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Shared/SystemAdminLayout.cshtml]
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Shared/SystemAdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFN5c3RlbUFkbWluTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/Desktop/Kirti-June Batch 2024/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Shared/TeacherLayout.cshtml]
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Shared/TeacherLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFRlYWNoZXJMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/Desktop/Kirti-June Batch 2024/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/Desktop/Kirti-June Batch 2024/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Student/StudentDashboard.cshtml]
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Student/StudentDashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxTdHVkZW50RGFzaGJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/Desktop/Kirti-June Batch 2024/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Student/ViewTimetable.cshtml]
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Student/ViewTimetable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxWaWV3VGltZXRhYmxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/Desktop/Kirti-June Batch 2024/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/SystemAdmin/AddAdministrator.cshtml]
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/SystemAdmin/AddAdministrator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3lzdGVtQWRtaW5cQWRkQWRtaW5pc3RyYXRvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/Desktop/Kirti-June Batch 2024/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/SystemAdmin/AdminDashboard.cshtml]
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/SystemAdmin/AdminDashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3lzdGVtQWRtaW5cQWRtaW5EYXNoYm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/Desktop/Kirti-June Batch 2024/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Teacher/AddAttendance.cshtml]
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Teacher/AddAttendance.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxBZGRBdHRlbmRhbmNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/Desktop/Kirti-June Batch 2024/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Teacher/ApplyLeave.cshtml]
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Teacher/AddGradeRecord.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxBZGRHcmFkZVJlY29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Teacher/ApplyLeave.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxBcHBseUxlYXZlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/Desktop/Kirti-June Batch 2024/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Teacher/TeacherDashboard.cshtml]
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Teacher/TeacherDashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxUZWFjaGVyRGFzaGJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/Desktop/Kirti-June Batch 2024/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Teacher/ViewLeaves.cshtml]
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Teacher/ViewLeaves.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxWaWV3TGVhdmVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/Desktop/Kirti-June Batch 2024/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Teacher/ViewStudents.cshtml]
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Teacher/ViewStudents.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxWaWV3U3R1ZGVudHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/Desktop/Kirti-June Batch 2024/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/_ViewImports.cshtml]
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/Desktop/Kirti-June Batch 2024/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/_ViewStart.cshtml]
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lenovo/Desktop/Kirti-June Batch 2024/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Shared/_Layout.cshtml]
+[C:/Users/USER/Documents/Projects/SchoolManagementSystemUsingDotNetCoreAndWebAPI/SchoolManagementWebApp/SchoolManagementWebApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-vkfuuydjrl
