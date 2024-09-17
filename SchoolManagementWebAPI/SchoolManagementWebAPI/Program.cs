@@ -16,6 +16,7 @@ builder.Services.AddScoped<UserRepo, UserService>();
 builder.Services.AddScoped<StudentRepo, StudentService>();
 builder.Services.AddScoped<TeacherRepo, TeacherService>();
 builder.Services.AddScoped<LibrarianRepo, LibrarianService>();
+builder.Services.AddScoped<GuardianRepo, GuardianServices>();
 
 var app = builder.Build();
 
