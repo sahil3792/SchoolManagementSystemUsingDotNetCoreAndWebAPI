@@ -115,7 +115,7 @@ namespace SchoolManagementWebAPI.Repo
             var book = GetBookById(bookId);
             if (book != null && book.NumberofCopies > 0)
             {
-                Reservation newReservation = new Reservation
+                Reservation newReservation = new Reservation()
                 {
                     BookId = bookId,
                     UserId = int.Parse(userId),

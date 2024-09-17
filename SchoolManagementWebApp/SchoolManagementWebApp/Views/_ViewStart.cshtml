@@ -18,6 +18,10 @@ else if(HttpContextAccessor.HttpContext.Session.GetString("Librarian")!=null)
 {
     Layout = "LibrarianLayout";
 }
+else if (HttpContextAccessor.HttpContext.Session.GetString("Guardian") != null)
+{
+    Layout = "GuardianLayout";
+}
 else
 {
     Layout = "_Layout";
