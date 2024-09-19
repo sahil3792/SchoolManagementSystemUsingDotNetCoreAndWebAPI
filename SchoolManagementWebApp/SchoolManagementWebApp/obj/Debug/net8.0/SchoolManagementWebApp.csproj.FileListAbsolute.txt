@@ -173,3 +173,5 @@ C:\Users\USER\Documents\Projects\SchoolManagementSystemUsingDotNetCoreAndWebAPI\
 C:\Users\USER\Documents\Projects\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp\obj\Debug\net8.0\SchoolManagementWebApp.pdb
 C:\Users\USER\Documents\Projects\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp\obj\Debug\net8.0\SchoolManagementWebApp.genruntimeconfig.cache
 C:\Users\USER\Documents\Projects\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp\obj\Debug\net8.0\ref\SchoolManagementWebApp.dll
+C:\Users\Admin\Desktop\Sahil Shaikh\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp\bin\Debug\net8.0\BouncyCastle.Crypto.dll
+C:\Users\Admin\Desktop\Sahil Shaikh\SchoolManagementSystemUsingDotNetCoreAndWebAPI\SchoolManagementWebApp\SchoolManagementWebApp\bin\Debug\net8.0\Razorpay.dll

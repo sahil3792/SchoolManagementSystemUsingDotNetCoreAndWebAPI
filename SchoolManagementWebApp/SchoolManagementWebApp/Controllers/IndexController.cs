@@ -128,5 +128,16 @@ namespace SchoolManagementWebApp.Controllers
 
             
         }
+
+        public IActionResult Logout()
+        {
+            HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            var storedCookie = Request.Cookies.Keys;
+            foreach( var cookie in storedCookie)
+            {
+                Response.Cookies.Delete(cookie);
+            }
+            return RedirectToAction("Index", "Index");
+        }
     }
 }
