@@ -137,7 +137,7 @@ namespace SchoolManagementWebApp.Controllers
             {
                 Response.Cookies.Delete(cookie);
             }
-            return RedirectToAction("Index", "Index");
+            return RedirectToAction("Index", "LandingPage");
         }
     }
 }
