@@ -17,8 +17,8 @@ builder.Services.AddAuthentication(
     options =>
     {
         options.ExpireTimeSpan = TimeSpan.FromDays(1);
-        options.LoginPath = "/Index/Index";
-        options.AccessDeniedPath = "/Index/Index";
+        options.LoginPath = "/LandingPage/Index";
+        options.AccessDeniedPath = "/LandingPage/Index";
     });
 var app = builder.Build();
 

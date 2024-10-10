@@ -26,7 +26,7 @@
                                 <th scope="row">@item.StudentId</th>
                                 <td>@item.FirstName @item.MiddleName @item.LastName</td>
                                 <td>
-                                        <a asp-controller="Teacher" asp-action="AddGradeRecord" asp-route-id="@item.StudentId"><input type="button" value="Disciplinary" class="btn btn-sm btn-outline-info m-1" /></a>
+                                        <a asp-controller="Teacher" asp-action="AddGradeRecord" asp-route-id="@item.StudentId"><input type="button" value="Add Grade" class="btn btn-sm btn-outline-info m-1" /></a>
 
                                     <a @* asp-controller="Teacher" asp-action="AddAcademicPerformance" *@><input type="button" value="Academic Performance" class="btn btn-sm btn-light m-1" onclick="ViewModal" /></a>
                                     <a asp-controller="Teacher" asp-action="AddDiscplinaryRecord"><input type="button" value="Disciplinary" class="btn btn-sm btn-secondary m-1" /></a>

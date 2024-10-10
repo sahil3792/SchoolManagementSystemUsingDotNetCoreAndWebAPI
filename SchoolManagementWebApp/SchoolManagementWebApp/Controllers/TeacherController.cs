@@ -195,6 +195,19 @@ namespace SchoolManagementWebApp.Controllers
             return Json(subjects);
         }
 
+        public IActionResult AddAssignment()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult AddAssignment(Assignment a )
+        {
+           
+            return View(a);
+
+        }
+
 
     }
 }
